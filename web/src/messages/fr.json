@@ -1,0 +1,246 @@
+{
+  "Navigation": {
+    "home": "Accueil",
+    "about": "À propos",
+    "expertise": "Expertises",
+    "solutions": "Solutions",
+    "caseStudies": "Réalisations",
+    "innovation": "Innovation",
+    "resources": "Ressources",
+    "news": "Actualités",
+    "careers": "Carrières",
+    "contact": "Contact",
+    "cta": "Demander une démonstration"
+  },
+  "Footer": {
+    "tagline": "Engineering Digital Impact",
+    "description": "Impact Solutions conçoit et déploie des solutions numériques à fort impact pour l'Afrique.",
+    "navigationTitle": "Navigation",
+    "expertiseTitle": "Expertises",
+    "solutionsTitle": "Solutions",
+    "resourcesTitle": "Ressources",
+    "legalTitle": "Légal",
+    "legalPrivacy": "Politique de confidentialité",
+    "legalTerms": "Mentions légales",
+    "newsletterTitle": "Restez informé",
+    "newsletterDescription": "Recevez nos actualités et publications techniques.",
+    "newsletterPlaceholder": "Votre adresse email",
+    "newsletterCta": "S'abonner",
+    "copyright": "© {year} Impact Solutions SAS. Tous droits réservés."
+  },
+  "HomePage": {
+    "hero": {
+      "title": "Nous construisons l'infrastructure numérique qui fait <accent>avancer l'Afrique</accent>.",
+      "subtitle": "Impact Solutions conçoit, développe et déploie des plateformes numériques à fort impact pour les gouvernements, les institutions internationales et les entreprises qui transforment le continent.",
+      "primaryCta": "Découvrir nos solutions",
+      "secondaryCta": "Demander une démonstration"
+    },
+    "mission": {
+      "eyebrow": "Notre mission",
+      "paragraph1": "Nous sommes une entreprise d'ingénierie numérique panafricaine. Notre mission : accélérer la transformation numérique de l'Afrique à travers des solutions technologiques qui répondent aux défis réels du développement.",
+      "paragraph2": "De la santé numérique à la gouvernance digitale, en passant par l'intelligence artificielle et les systèmes d'information, nous concevons des plateformes robustes, interopérables et pensées pour l'échelle.",
+      "paragraph3": "Nos produits — KEREYA, PASSBI, AFRIASSESS — démontrent cette capacité : des solutions déployées sur le terrain, au service des populations et des institutions qui les servent."
+    },
+    "expertiseSection": {
+      "eyebrow": "Nos expertises",
+      "title": "Une ingénierie complète, de la donnée à l'infrastructure",
+      "viewAll": "Voir toutes les expertises"
+    },
+    "solutionsSection": {
+      "eyebrow": "Nos produits",
+      "title": "Des solutions numériques conçues pour l'impact",
+      "description": "Nous développons des plateformes qui répondent aux défis des secteurs clés et améliorent durablement la vie des populations.",
+      "viewAll": "Découvrir toutes nos solutions"
+    },
+    "impactSection": {
+      "eyebrow": "Notre impact",
+      "title": "Des résultats mesurables",
+      "stat1Value": "50+",
+      "stat1Label": "Projets réalisés",
+      "stat2Value": "12+",
+      "stat2Label": "Pays d'intervention",
+      "stat3Value": "100+",
+      "stat3Label": "Partenaires & institutions",
+      "stat4Value": "1M+",
+      "stat4Label": "Personnes impactées"
+    },
+    "newsSection": {
+      "eyebrow": "Actualités",
+      "title": "Dernières publications",
+      "viewAll": "Voir toutes les actualités",
+      "comingSoon": "Bientôt disponible"
+    },
+    "cta": {
+      "eyebrow": "Prêt à démarrer ?",
+      "title": "Parlons de votre prochain projet numérique.",
+      "subtitle": "Institutions, bailleurs, entreprises : notre équipe vous accompagne du cadrage au déploiement.",
+      "button": "Demander une démonstration",
+      "secondaryButton": "Nous contacter"
+    }
+  },
+  "AboutPage": {
+    "hero": {
+      "eyebrow": "À propos",
+      "title": "Une ingénierie numérique pensée pour l'Afrique"
+    },
+    "history": {
+      "title": "Notre histoire",
+      "body": "Impact Solutions est née d'une conviction : l'Afrique n'a pas besoin de solutions importées, mais d'une ingénierie numérique pensée pour ses propres réalités. [CLIENT-FILL: année de création, jalons clés, pays d'implantation]."
+    },
+    "mission": {
+      "title": "Mission",
+      "body": "Concevoir des solutions numériques qui améliorent durablement les services essentiels en Afrique."
+    },
+    "vision": {
+      "title": "Vision",
+      "body": "Devenir la référence panafricaine de l'ingénierie numérique à impact, reconnue par les institutions, les bailleurs et les partenaires industriels."
+    },
+    "values": {
+      "title": "Nos valeurs",
+      "innovation": {
+        "title": "Innovation",
+        "body": "Nous explorons continuellement de nouvelles approches technologiques pour résoudre des problèmes complexes."
+      },
+      "excellence": {
+        "title": "Excellence",
+        "body": "Nous visons la rigueur technique et la qualité à chaque étape, du cadrage au déploiement."
+      },
+      "impact": {
+        "title": "Impact",
+        "body": "Chaque solution que nous construisons doit produire un effet mesurable sur le terrain."
+      },
+      "reliability": {
+        "title": "Fiabilité",
+        "body": "Nos plateformes sont conçues pour fonctionner de manière stable, sécurisée et durable."
+      },
+      "openness": {
+        "title": "Ouverture",
+        "body": "Nous privilégions les standards ouverts et l'interopérabilité plutôt que les silos technologiques."
+      },
+      "collaboration": {
+        "title": "Collaboration",
+        "body": "Nous travaillons aux côtés de nos partenaires, pas seulement pour eux."
+      },
+      "ethics": {
+        "title": "Éthique",
+        "body": "Nous plaçons la protection des données et l'usage responsable de la technologie au cœur de nos choix."
+      }
+    },
+    "approach": {
+      "title": "Notre approche",
+      "body": "Nous combinons expertise technique, compréhension du terrain et rigueur méthodologique pour livrer des solutions qui durent au-delà du déploiement initial."
+    },
+    "team": {
+      "title": "Notre équipe",
+      "body": "[CLIENT-FILL: présentation de l'équipe dirigeante et des profils clés]"
+    }
+  },
+  "ExpertisesPage": {
+    "hero": {
+      "eyebrow": "Expertises",
+      "title": "Une ingénierie complète, de la stratégie au déploiement"
+    },
+    "items": {
+      "digitalTransformation": {
+        "title": "Transformation digitale",
+        "body": "Nous accompagnons institutions et entreprises dans la refonte numérique de leurs processus et services."
+      },
+      "softwareDevelopment": {
+        "title": "Développement logiciel",
+        "body": "Applications web et mobiles sur mesure, robustes, évolutives et conçues pour l'échelle."
+      },
+      "cloudArchitecture": {
+        "title": "Architecture Cloud",
+        "body": "Infrastructures cloud sécurisées, résilientes et optimisées pour la performance et les coûts."
+      },
+      "mobileApps": {
+        "title": "Applications mobiles",
+        "body": "Applications natives et cross-platform pensées pour l'usage réel, y compris en connectivité limitée."
+      },
+      "gis": {
+        "title": "SIG",
+        "body": "Systèmes d'information géographique pour cartographier, analyser et piloter les projets de développement."
+      },
+      "dataEngineering": {
+        "title": "Data Engineering",
+        "body": "Pipelines de données fiables pour transformer l'information brute en décisions éclairées."
+      },
+      "ai": {
+        "title": "Intelligence artificielle",
+        "body": "Modèles et algorithmes appliqués à la santé, la gouvernance et l'analyse prédictive."
+      },
+      "interoperability": {
+        "title": "Interopérabilité",
+        "body": "Intégration de systèmes hétérogènes selon les standards internationaux (FHIR, GTFS, API ouvertes)."
+      },
+      "uxui": {
+        "title": "UX/UI",
+        "body": "Interfaces claires et accessibles, pensées pour des utilisateurs aux réalités très diverses."
+      },
+      "cybersecurity": {
+        "title": "Cybersécurité",
+        "body": "Protection des données sensibles et conformité aux exigences des secteurs régulés."
+      },
+      "consulting": {
+        "title": "Conseil stratégique",
+        "body": "Accompagnement stratégique pour cadrer, prioriser et réussir les projets numériques complexes."
+      }
+    }
+  },
+  "SolutionsPage": {
+    "hero": {
+      "eyebrow": "Solutions",
+      "title": "Des plateformes conçues pour l'impact, éprouvées sur le terrain"
+    },
+    "items": {
+      "kereya": {
+        "name": "KEREYA",
+        "tagline": "Plateforme de santé numérique",
+        "body": "KEREYA connecte patients, professionnels de santé et établissements pour améliorer l'accès aux soins et la continuité des parcours médicaux."
+      },
+      "passbi": {
+        "name": "PASSBI",
+        "tagline": "Mobilité intelligente",
+        "body": "PASSBI optimise le transport public grâce à la donnée en temps réel et à la planification d'itinéraires."
+      },
+      "afriassess": {
+        "name": "AFRIASSESS",
+        "tagline": "Études environnementales",
+        "body": "AFRIASSESS structure, centralise et fiabilise l'évaluation des impacts environnementaux et sociaux des projets."
+      },
+      "custom": {
+        "name": "Solutions sur mesure",
+        "tagline": "Développement de plateformes numériques",
+        "body": "Nous concevons des plateformes numériques sur mesure pour répondre aux défis spécifiques de nos partenaires, du cadrage au déploiement."
+      }
+    },
+    "cta": "En savoir plus"
+  },
+  "ContactPage": {
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "Parlons de votre projet",
+      "subtitle": "Vous portez un projet institutionnel, un partenariat ou une opportunité de collaboration ? Notre équipe vous répond sous 48 heures ouvrées."
+    },
+    "form": {
+      "nameLabel": "Nom complet",
+      "emailLabel": "Email professionnel",
+      "organizationLabel": "Organisation",
+      "messageLabel": "Message",
+      "submit": "Envoyer le message",
+      "privacyNote": "Vos données sont traitées de manière confidentielle et ne sont jamais partagées avec des tiers.",
+      "successTitle": "Message envoyé",
+      "successBody": "Merci, nous revenons vers vous sous 48 heures ouvrées.",
+      "errorBody": "Une erreur est survenue. Merci de réessayer ou de nous écrire directement."
+    },
+    "info": {
+      "title": "Informations",
+      "addressLabel": "Adresse",
+      "address": "[CLIENT-FILL: adresse du siège]",
+      "emailLabel2": "Email",
+      "email": "[CLIENT-FILL: email de contact]",
+      "phoneLabel": "Téléphone",
+      "phone": "[CLIENT-FILL: numéro de téléphone]"
+    }
+  }
+}

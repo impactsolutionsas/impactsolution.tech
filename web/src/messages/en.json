@@ -1,0 +1,246 @@
+{
+  "Navigation": {
+    "home": "Home",
+    "about": "About",
+    "expertise": "Expertise",
+    "solutions": "Solutions",
+    "caseStudies": "Case Studies",
+    "innovation": "Innovation",
+    "resources": "Resources",
+    "news": "News",
+    "careers": "Careers",
+    "contact": "Contact",
+    "cta": "Request a demo"
+  },
+  "Footer": {
+    "tagline": "Engineering Digital Impact",
+    "description": "Impact Solutions designs and deploys high-impact digital solutions for Africa.",
+    "navigationTitle": "Navigation",
+    "expertiseTitle": "Expertise",
+    "solutionsTitle": "Solutions",
+    "resourcesTitle": "Resources",
+    "legalTitle": "Legal",
+    "legalPrivacy": "Privacy Policy",
+    "legalTerms": "Legal Notice",
+    "newsletterTitle": "Stay informed",
+    "newsletterDescription": "Get our news and technical publications.",
+    "newsletterPlaceholder": "Your email address",
+    "newsletterCta": "Subscribe",
+    "copyright": "© {year} Impact Solutions SAS. All rights reserved."
+  },
+  "HomePage": {
+    "hero": {
+      "title": "We build the digital infrastructure that <accent>moves Africa forward</accent>.",
+      "subtitle": "Impact Solutions designs, develops and deploys high-impact digital platforms for governments, international institutions and businesses transforming the continent.",
+      "primaryCta": "Explore our solutions",
+      "secondaryCta": "Request a demo"
+    },
+    "mission": {
+      "eyebrow": "Our mission",
+      "paragraph1": "We are a pan-African digital engineering company. Our mission: accelerate Africa's digital transformation through technology solutions that address real development challenges.",
+      "paragraph2": "From digital health to digital governance, artificial intelligence and information systems, we design platforms that are robust, interoperable and built to scale.",
+      "paragraph3": "Our products — KEREYA, PASSBI, AFRIASSESS — prove this capability: solutions deployed in the field, serving populations and the institutions that support them."
+    },
+    "expertiseSection": {
+      "eyebrow": "Our expertise",
+      "title": "Full-stack engineering, from data to infrastructure",
+      "viewAll": "View all expertise areas"
+    },
+    "solutionsSection": {
+      "eyebrow": "Our products",
+      "title": "Digital solutions designed for impact",
+      "description": "We build platforms that address key sector challenges and durably improve people's lives.",
+      "viewAll": "Explore all our solutions"
+    },
+    "impactSection": {
+      "eyebrow": "Our impact",
+      "title": "Measurable results",
+      "stat1Value": "50+",
+      "stat1Label": "Projects delivered",
+      "stat2Value": "12+",
+      "stat2Label": "Countries of operation",
+      "stat3Value": "100+",
+      "stat3Label": "Partners & institutions",
+      "stat4Value": "1M+",
+      "stat4Label": "People impacted"
+    },
+    "newsSection": {
+      "eyebrow": "News",
+      "title": "Latest publications",
+      "viewAll": "View all news",
+      "comingSoon": "Coming soon"
+    },
+    "cta": {
+      "eyebrow": "Ready to get started?",
+      "title": "Let's talk about your next digital project.",
+      "subtitle": "Institutions, funders, businesses: our team supports you from scoping to deployment.",
+      "button": "Request a demo",
+      "secondaryButton": "Contact us"
+    }
+  },
+  "AboutPage": {
+    "hero": {
+      "eyebrow": "About",
+      "title": "Digital engineering built for Africa"
+    },
+    "history": {
+      "title": "Our story",
+      "body": "Impact Solutions was founded on a conviction: Africa doesn't need imported solutions, but digital engineering designed for its own realities. [CLIENT-FILL: founding year, key milestones, countries of operation]."
+    },
+    "mission": {
+      "title": "Mission",
+      "body": "Design digital solutions that durably improve essential services in Africa."
+    },
+    "vision": {
+      "title": "Vision",
+      "body": "Become the pan-African reference in impact-driven digital engineering, recognized by institutions, funders and industrial partners."
+    },
+    "values": {
+      "title": "Our values",
+      "innovation": {
+        "title": "Innovation",
+        "body": "We continuously explore new technological approaches to solve complex problems."
+      },
+      "excellence": {
+        "title": "Excellence",
+        "body": "We pursue technical rigor and quality at every stage, from scoping to deployment."
+      },
+      "impact": {
+        "title": "Impact",
+        "body": "Every solution we build must produce a measurable effect in the field."
+      },
+      "reliability": {
+        "title": "Reliability",
+        "body": "Our platforms are designed to run stably, securely and durably."
+      },
+      "openness": {
+        "title": "Openness",
+        "body": "We favor open standards and interoperability over technological silos."
+      },
+      "collaboration": {
+        "title": "Collaboration",
+        "body": "We work alongside our partners, not just for them."
+      },
+      "ethics": {
+        "title": "Ethics",
+        "body": "We place data protection and responsible technology use at the heart of our choices."
+      }
+    },
+    "approach": {
+      "title": "Our approach",
+      "body": "We combine technical expertise, field understanding and methodological rigor to deliver solutions that last well beyond initial deployment."
+    },
+    "team": {
+      "title": "Our team",
+      "body": "[CLIENT-FILL: leadership team and key profiles presentation]"
+    }
+  },
+  "ExpertisesPage": {
+    "hero": {
+      "eyebrow": "Expertise",
+      "title": "Full-stack engineering, from strategy to deployment"
+    },
+    "items": {
+      "digitalTransformation": {
+        "title": "Digital Transformation",
+        "body": "We support institutions and businesses in the digital overhaul of their processes and services."
+      },
+      "softwareDevelopment": {
+        "title": "Software Development",
+        "body": "Custom web and mobile applications, robust, scalable and built to last."
+      },
+      "cloudArchitecture": {
+        "title": "Cloud Architecture",
+        "body": "Secure, resilient cloud infrastructure optimized for performance and cost."
+      },
+      "mobileApps": {
+        "title": "Mobile Applications",
+        "body": "Native and cross-platform apps designed for real-world use, including limited connectivity."
+      },
+      "gis": {
+        "title": "GIS",
+        "body": "Geographic information systems to map, analyze and steer development projects."
+      },
+      "dataEngineering": {
+        "title": "Data Engineering",
+        "body": "Reliable data pipelines that turn raw information into informed decisions."
+      },
+      "ai": {
+        "title": "Artificial Intelligence",
+        "body": "Models and algorithms applied to health, governance and predictive analytics."
+      },
+      "interoperability": {
+        "title": "Interoperability",
+        "body": "Integration of heterogeneous systems following international standards (FHIR, GTFS, open APIs)."
+      },
+      "uxui": {
+        "title": "UX/UI",
+        "body": "Clear, accessible interfaces designed for users with very diverse realities."
+      },
+      "cybersecurity": {
+        "title": "Cybersecurity",
+        "body": "Protection of sensitive data and compliance with regulated sector requirements."
+      },
+      "consulting": {
+        "title": "Strategic Consulting",
+        "body": "Strategic support to scope, prioritize and succeed in complex digital projects."
+      }
+    }
+  },
+  "SolutionsPage": {
+    "hero": {
+      "eyebrow": "Solutions",
+      "title": "Platforms built for impact, proven in the field"
+    },
+    "items": {
+      "kereya": {
+        "name": "KEREYA",
+        "tagline": "Digital health platform",
+        "body": "KEREYA connects patients, healthcare professionals and facilities to improve access to care and continuity of medical journeys."
+      },
+      "passbi": {
+        "name": "PASSBI",
+        "tagline": "Smart mobility",
+        "body": "PASSBI optimizes public transport through real-time data and route planning."
+      },
+      "afriassess": {
+        "name": "AFRIASSESS",
+        "tagline": "Environmental assessments",
+        "body": "AFRIASSESS structures, centralizes and streamlines the evaluation of environmental and social project impacts."
+      },
+      "custom": {
+        "name": "Custom Solutions",
+        "tagline": "Digital platform development",
+        "body": "We design custom digital platforms to address our partners' specific challenges, from scoping to deployment."
+      }
+    },
+    "cta": "Learn more"
+  },
+  "ContactPage": {
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "Let's talk about your project",
+      "subtitle": "Do you have an institutional project, a partnership or a collaboration opportunity? Our team responds within 48 business hours."
+    },
+    "form": {
+      "nameLabel": "Full name",
+      "emailLabel": "Work email",
+      "organizationLabel": "Organization",
+      "messageLabel": "Message",
+      "submit": "Send message",
+      "privacyNote": "Your data is handled confidentially and never shared with third parties.",
+      "successTitle": "Message sent",
+      "successBody": "Thank you, we'll get back to you within 48 business hours.",
+      "errorBody": "Something went wrong. Please try again or email us directly."
+    },
+    "info": {
+      "title": "Information",
+      "addressLabel": "Address",
+      "address": "[CLIENT-FILL: headquarters address]",
+      "emailLabel2": "Email",
+      "email": "[CLIENT-FILL: contact email]",
+      "phoneLabel": "Phone",
+      "phone": "[CLIENT-FILL: phone number]"
+    }
+  }
+}
