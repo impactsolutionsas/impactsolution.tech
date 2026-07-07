@@ -9,10 +9,6 @@ import {
   BrainCircuit,
   Network,
   ArrowRight,
-  HeartPulse,
-  Bus,
-  Leaf,
-  Blocks,
 } from "lucide-react";
 
 import { Link } from "@/i18n/navigation";
@@ -22,8 +18,9 @@ import { MissionSection } from "@/components/sections/mission-section";
 import { ImpactStatsSection } from "@/components/sections/impact-stats-section";
 import { SectionHeading } from "@/components/sections/section-heading";
 import { ExpertiseCard } from "@/components/sections/expertise-card";
-import { SolutionCard } from "@/components/sections/solution-card";
+import { ProductsCarousel } from "@/components/sections/products-carousel";
 import { CtaSection } from "@/components/sections/cta-section";
+import { SOLUTION_KEYS } from "@/lib/solutions";
 
 const EXPERTISE_ICONS = {
   digitalTransformation: RefreshCw,
@@ -36,13 +33,6 @@ const EXPERTISE_ICONS = {
   interoperability: Network,
 } as const;
 
-const SOLUTIONS = {
-  kereya: { icon: HeartPulse, accent: "#00BBD3", accentSafe: "#00829A" },
-  passbi: { icon: Bus, accent: "#3DDC97", accentSafe: "#00884A" },
-  afriassess: { icon: Leaf, accent: "#F5A623", accentSafe: "#AC6100" },
-  custom: { icon: Blocks, accent: "#8B93FF", accentSafe: "#666BD2" },
-} as const;
-
 export default async function HomePage() {
   const [tHome, tExp, tSol] = await Promise.all([
     getTranslations("HomePage"),
@@ -53,7 +43,6 @@ export default async function HomePage() {
   const expertiseKeys = Object.keys(
     EXPERTISE_ICONS
   ) as (keyof typeof EXPERTISE_ICONS)[];
-  const solutionKeys = Object.keys(SOLUTIONS) as (keyof typeof SOLUTIONS)[];
 
   return (
     <>
@@ -133,22 +122,19 @@ export default async function HomePage() {
             title={tHome("solutionsSection.title")}
             description={tHome("solutionsSection.description")}
           />
-          <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2">
-            {solutionKeys.map((key) => (
-              <SolutionCard
-                key={key}
-                icon={SOLUTIONS[key].icon}
-                name={tSol(`items.${key}.name`)}
-                tagline={tSol(`items.${key}.tagline`)}
-                description={tSol(`items.${key}.body`)}
-                href={`/solutions/${key}`}
-                cta={tSol("cta")}
-                accent={SOLUTIONS[key].accent}
-                accentSafe={SOLUTIONS[key].accentSafe}
-              />
-            ))}
+          <div className="mt-12">
+            <ProductsCarousel
+              items={SOLUTION_KEYS.map((key) => ({
+                key,
+                name: tSol(`items.${key}.name`),
+                tagline: tSol(`items.${key}.tagline`),
+                description: tSol(`items.${key}.body`),
+                href: `/solutions/${key}`,
+                cta: tSol("cta"),
+              }))}
+            />
           </div>
-          <div className="mt-10 flex justify-center">
+          <div className="mt-4 flex justify-center">
             <Button asChild variant="outline">
               <Link href="/solutions">
                 {tHome("solutionsSection.viewAll")}

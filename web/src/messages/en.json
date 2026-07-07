@@ -143,47 +143,113 @@
     "items": {
       "digitalTransformation": {
         "title": "Digital Transformation",
-        "body": "We support institutions and businesses in the digital overhaul of their processes and services."
+        "body": "We support institutions and businesses in the digital overhaul of their processes and services.",
+        "capabilities": [
+          "Audit of existing processes and identification of digitalization opportunities",
+          "Change management support for business teams",
+          "Redesign of public and private services into digital journeys",
+          "Implementation oversight through to adoption"
+        ]
       },
       "softwareDevelopment": {
         "title": "Software Development",
-        "body": "Custom web and mobile applications, robust, scalable and built to last."
+        "body": "Custom web and mobile applications, robust, scalable and built to last.",
+        "capabilities": [
+          "Custom web and mobile applications",
+          "Scalable architecture built for growth",
+          "Automated testing and continuous integration",
+          "Long-term maintenance and evolution"
+        ]
       },
       "cloudArchitecture": {
         "title": "Cloud Architecture",
-        "body": "Secure, resilient cloud infrastructure optimized for performance and cost."
+        "body": "Secure, resilient cloud infrastructure optimized for performance and cost.",
+        "capabilities": [
+          "Design of cloud and hybrid infrastructure",
+          "Securing production environments",
+          "Hosting cost optimization",
+          "Deployment automation (CI/CD, infrastructure as code)"
+        ]
       },
       "mobileApps": {
         "title": "Mobile Applications",
-        "body": "Native and cross-platform apps designed for real-world use, including limited connectivity."
+        "body": "Native and cross-platform apps designed for real-world use, including limited connectivity.",
+        "capabilities": [
+          "Native iOS/Android and cross-platform apps",
+          "Offline functionality and deferred sync",
+          "Optimization for limited connectivity",
+          "Design suited to field conditions"
+        ]
       },
       "gis": {
         "title": "GIS",
-        "body": "Geographic information systems to map, analyze and steer development projects."
+        "body": "Geographic information systems to map, analyze and steer development projects.",
+        "capabilities": [
+          "Mapping and visualization of geospatial data",
+          "Monitoring and evaluation of territorial projects",
+          "Integration of satellite and field data",
+          "Location-based decision support tools"
+        ]
       },
       "dataEngineering": {
         "title": "Data Engineering",
-        "body": "Reliable data pipelines that turn raw information into informed decisions."
+        "body": "Reliable data pipelines that turn raw information into informed decisions.",
+        "capabilities": [
+          "Design of robust data pipelines",
+          "Consolidation of heterogeneous sources",
+          "Data quality, governance and traceability",
+          "Automated dashboards and reporting"
+        ]
       },
       "ai": {
         "title": "Artificial Intelligence",
-        "body": "Models and algorithms applied to health, governance and predictive analytics."
+        "body": "Models and algorithms applied to health, governance and predictive analytics.",
+        "capabilities": [
+          "Predictive models applied to social sectors",
+          "Natural language processing and automation",
+          "Decision support for health and governance",
+          "Responsible, explainable model deployment"
+        ]
       },
       "interoperability": {
         "title": "Interoperability",
-        "body": "Integration of heterogeneous systems following international standards (FHIR, GTFS, open APIs)."
+        "body": "Integration of heterogeneous systems following international standards (FHIR, GTFS, open APIs).",
+        "capabilities": [
+          "Integration of heterogeneous systems via APIs",
+          "Compliance with international standards (FHIR, GTFS...)",
+          "Secure data exchange between institutions",
+          "Mapping and governance of integration flows"
+        ]
       },
       "uxui": {
         "title": "UX/UI",
-        "body": "Clear, accessible interfaces designed for users with very diverse realities."
+        "body": "Clear, accessible interfaces designed for users with very diverse realities.",
+        "capabilities": [
+          "User research and field usability testing",
+          "Accessible interface design (WCAG)",
+          "Prototyping and iterative validation",
+          "Consistent cross-platform design system"
+        ]
       },
       "cybersecurity": {
         "title": "Cybersecurity",
-        "body": "Protection of sensitive data and compliance with regulated sector requirements."
+        "body": "Protection of sensitive data and compliance with regulated sector requirements.",
+        "capabilities": [
+          "Security audits and penetration testing",
+          "Sensitive data protection and regulatory compliance",
+          "Access policies and encryption implementation",
+          "Monitoring and incident response"
+        ]
       },
       "consulting": {
         "title": "Strategic Consulting",
-        "body": "Strategic support to scope, prioritize and succeed in complex digital projects."
+        "body": "Strategic support to scope, prioritize and succeed in complex digital projects.",
+        "capabilities": [
+          "Strategic scoping of digital projects",
+          "Prioritization and technology arbitration",
+          "Project governance support",
+          "Skills transfer to internal teams"
+        ]
       }
     }
   },
@@ -224,10 +290,19 @@
     },
     "form": {
       "nameLabel": "Full name",
+      "namePlaceholder": "Jane Doe",
+      "nameError": "Please enter your name (2 characters minimum).",
       "emailLabel": "Work email",
+      "emailPlaceholder": "jane.doe@organization.org",
+      "emailError": "Please enter a valid email address.",
       "organizationLabel": "Organization",
+      "organizationPlaceholder": "Your organization's name",
+      "organizationError": "Please enter your organization.",
       "messageLabel": "Message",
+      "messagePlaceholder": "Describe your project or request...",
+      "messageError": "Your message must be at least 10 characters long.",
       "submit": "Send message",
+      "submitting": "Sending...",
       "privacyNote": "Your data is handled confidentially and never shared with third parties.",
       "successTitle": "Message sent",
       "successBody": "Thank you, we'll get back to you within 48 business hours.",

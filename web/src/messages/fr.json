@@ -143,47 +143,113 @@
     "items": {
       "digitalTransformation": {
         "title": "Transformation digitale",
-        "body": "Nous accompagnons institutions et entreprises dans la refonte numérique de leurs processus et services."
+        "body": "Nous accompagnons institutions et entreprises dans la refonte numérique de leurs processus et services.",
+        "capabilities": [
+          "Audit des processus existants et identification des leviers de digitalisation",
+          "Accompagnement au changement auprès des équipes métier",
+          "Refonte de services publics et privés en parcours numériques",
+          "Pilotage de la mise en œuvre jusqu'à l'adoption"
+        ]
       },
       "softwareDevelopment": {
         "title": "Développement logiciel",
-        "body": "Applications web et mobiles sur mesure, robustes, évolutives et conçues pour l'échelle."
+        "body": "Applications web et mobiles sur mesure, robustes, évolutives et conçues pour l'échelle.",
+        "capabilities": [
+          "Applications web et mobiles sur mesure",
+          "Architecture évolutive pensée pour la montée en charge",
+          "Tests automatisés et intégration continue",
+          "Maintenance et évolution long terme"
+        ]
       },
       "cloudArchitecture": {
         "title": "Architecture Cloud",
-        "body": "Infrastructures cloud sécurisées, résilientes et optimisées pour la performance et les coûts."
+        "body": "Infrastructures cloud sécurisées, résilientes et optimisées pour la performance et les coûts.",
+        "capabilities": [
+          "Conception d'infrastructures cloud et hybrides",
+          "Sécurisation des environnements de production",
+          "Optimisation des coûts d'hébergement",
+          "Automatisation du déploiement (CI/CD, infrastructure as code)"
+        ]
       },
       "mobileApps": {
         "title": "Applications mobiles",
-        "body": "Applications natives et cross-platform pensées pour l'usage réel, y compris en connectivité limitée."
+        "body": "Applications natives et cross-platform pensées pour l'usage réel, y compris en connectivité limitée.",
+        "capabilities": [
+          "Applications natives iOS/Android et cross-platform",
+          "Fonctionnement hors-ligne et synchronisation différée",
+          "Optimisation pour connectivité limitée",
+          "Design adapté aux usages terrain"
+        ]
       },
       "gis": {
         "title": "SIG",
-        "body": "Systèmes d'information géographique pour cartographier, analyser et piloter les projets de développement."
+        "body": "Systèmes d'information géographique pour cartographier, analyser et piloter les projets de développement.",
+        "capabilities": [
+          "Cartographie et visualisation de données géospatiales",
+          "Suivi et évaluation de projets territoriaux",
+          "Intégration de données satellite et terrain",
+          "Outils d'aide à la décision géolocalisés"
+        ]
       },
       "dataEngineering": {
         "title": "Data Engineering",
-        "body": "Pipelines de données fiables pour transformer l'information brute en décisions éclairées."
+        "body": "Pipelines de données fiables pour transformer l'information brute en décisions éclairées.",
+        "capabilities": [
+          "Conception de pipelines de données robustes",
+          "Consolidation de sources hétérogènes",
+          "Qualité, gouvernance et traçabilité des données",
+          "Tableaux de bord et reporting automatisé"
+        ]
       },
       "ai": {
         "title": "Intelligence artificielle",
-        "body": "Modèles et algorithmes appliqués à la santé, la gouvernance et l'analyse prédictive."
+        "body": "Modèles et algorithmes appliqués à la santé, la gouvernance et l'analyse prédictive.",
+        "capabilities": [
+          "Modèles prédictifs appliqués aux secteurs sociaux",
+          "Traitement du langage naturel et automatisation",
+          "Aide à la décision pour la santé et la gouvernance",
+          "Déploiement responsable et explicable des modèles"
+        ]
       },
       "interoperability": {
         "title": "Interopérabilité",
-        "body": "Intégration de systèmes hétérogènes selon les standards internationaux (FHIR, GTFS, API ouvertes)."
+        "body": "Intégration de systèmes hétérogènes selon les standards internationaux (FHIR, GTFS, API ouvertes).",
+        "capabilities": [
+          "Intégration de systèmes hétérogènes via API",
+          "Conformité aux standards internationaux (FHIR, GTFS...)",
+          "Échanges de données sécurisés entre institutions",
+          "Cartographie et gouvernance des flux d'intégration"
+        ]
       },
       "uxui": {
         "title": "UX/UI",
-        "body": "Interfaces claires et accessibles, pensées pour des utilisateurs aux réalités très diverses."
+        "body": "Interfaces claires et accessibles, pensées pour des utilisateurs aux réalités très diverses.",
+        "capabilities": [
+          "Recherche utilisateur et tests d'usage terrain",
+          "Design d'interfaces accessibles (WCAG)",
+          "Prototypage et validation itérative",
+          "Design system cohérent multi-plateforme"
+        ]
       },
       "cybersecurity": {
         "title": "Cybersécurité",
-        "body": "Protection des données sensibles et conformité aux exigences des secteurs régulés."
+        "body": "Protection des données sensibles et conformité aux exigences des secteurs régulés.",
+        "capabilities": [
+          "Audit de sécurité et tests d'intrusion",
+          "Protection des données sensibles et conformité réglementaire",
+          "Mise en place de politiques d'accès et de chiffrement",
+          "Surveillance et réponse aux incidents"
+        ]
       },
       "consulting": {
         "title": "Conseil stratégique",
-        "body": "Accompagnement stratégique pour cadrer, prioriser et réussir les projets numériques complexes."
+        "body": "Accompagnement stratégique pour cadrer, prioriser et réussir les projets numériques complexes.",
+        "capabilities": [
+          "Cadrage stratégique de projets numériques",
+          "Priorisation et arbitrage technologique",
+          "Accompagnement à la gouvernance de projet",
+          "Transfert de compétences aux équipes internes"
+        ]
       }
     }
   },
@@ -224,10 +290,19 @@
     },
     "form": {
       "nameLabel": "Nom complet",
+      "namePlaceholder": "Jean Dupont",
+      "nameError": "Veuillez indiquer votre nom (2 caractères minimum).",
       "emailLabel": "Email professionnel",
+      "emailPlaceholder": "jean.dupont@organisation.org",
+      "emailError": "Veuillez indiquer une adresse email valide.",
       "organizationLabel": "Organisation",
+      "organizationPlaceholder": "Nom de votre organisation",
+      "organizationError": "Veuillez indiquer votre organisation.",
       "messageLabel": "Message",
+      "messagePlaceholder": "Décrivez votre projet ou votre demande...",
+      "messageError": "Votre message doit contenir au moins 10 caractères.",
       "submit": "Envoyer le message",
+      "submitting": "Envoi en cours...",
       "privacyNote": "Vos données sont traitées de manière confidentielle et ne sont jamais partagées avec des tiers.",
       "successTitle": "Message envoyé",
       "successBody": "Merci, nous revenons vers vous sous 48 heures ouvrées.",

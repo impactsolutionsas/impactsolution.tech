@@ -101,14 +101,14 @@ _(rien — toutes les décisions arch tranchées 2026-07-06)_
 
 ### Phase 3 — Pages [P0 → P2]
 - [x] **PG-HOME** [P0] ~~Accueil~~ — livré 2026-07-06 (voir Completed). Reste : brancher sur Directus quand CMS-1/2 prêts (actuellement contenu via `src/messages/*.json` en dur, conforme pour v1 mais à terme cdc exige 100% CMS)
-- [ ] **PG-ABOUT** [P0] À propos (histoire, mission, vision, valeurs, approche, équipe) — copy déjà prête dans `messages.AboutPage`, page à construire
+- [x] **PG-ABOUT** [P0] ~~À propos~~ — livré 2026-07-06 (`web/src/app/[locale]/about/page.tsx`). Header réutilisable créé (`page-header.tsx`), sections Histoire/Mission&Vision/Valeurs (7, grille 4+3, réutilise `ExpertiseCard`)/Approche (citation centrée)/Équipe (placeholder honnête, pas de faux profils fabriqués)/CTA final partagé. `[CLIENT-FILL]` visibles tels quels pour histoire et équipe — à combler par le client.
 - [ ] **PG-EXPERTISES** [P0] Index + 11 sous-pages (cdc §10) — chaque expertise SEO-optimisée (cdc §23). Copy déjà prête dans `messages.ExpertisesPage.items.*`
 - [ ] **PG-SOLUTIONS** [P0] Index + mini-sites KEREYA / PASSBI / AFRIASSESS / Custom. Copy déjà prête dans `messages.SolutionsPage.items.*`
 - [ ] **PG-CASES** [P1] Réalisations (contexte, défi, solution, résultats, impact, techs, partenaires)
 - [ ] **PG-INNOVATION** [P1] R&D, Publications, Roadmap, Lab IA
 - [ ] **PG-RESOURCES** [P1] Blog (MDX via Directus), livres blancs, guides, docs, FAQ
 - [ ] **PG-CAREERS** [P2] Culture, métiers, offres, spontanée
-- [ ] **PG-CONTACT** [P0] Formulaire intelligent (RHF+Zod) + carte + prise de RDV. Copy déjà prête dans `messages.ContactPage.*`, formulaire shadcn `Form` installé mais pas encore câblé (pas de backend/API route encore)
+- [x] **PG-CONTACT** [P0] ~~Formulaire intelligent~~ — livré 2026-07-06 (`web/src/app/[locale]/contact/page.tsx`). RHF + Zod v4 (`z.email()`), validation localisée FR/EN, route `POST /api/contact` (`web/src/app/api/contact/route.ts`) avec validation serveur miroir + log sans PII. Testé de bout en bout (erreurs de validation + soumission réussie → écran succès). **Reste** : carte + prise de RDV (non demandées, cdc les mentionne en option) ; brancher la route API sur Directus (`contact_submissions`) une fois CMS-1 prêt — actuellement juste un log serveur, aucune persistance.
 
 ### Phase 4 — Cross-cutting [P0 → P1]
 - [ ] **SEO-1** [P0] Metadata API Next.js, Schema.org, OpenGraph, JSON-LD par type, sitemap, robots, canonical
