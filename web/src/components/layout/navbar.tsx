@@ -21,6 +21,7 @@ import {
   NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
 import { SOLUTION_KEYS, SOLUTIONS } from "@/lib/solutions";
+import { LocaleSwitcher, LocaleSwitcherMobile } from "@/components/layout/locale-switcher";
 
 export async function Navbar() {
   const [t, tSol] = await Promise.all([
@@ -136,6 +137,7 @@ export async function Navbar() {
 
             {/* Actions — right */}
             <div className="hidden shrink-0 items-center gap-2.5 lg:flex">
+              <LocaleSwitcher />
               <Button
                 asChild
                 size="sm"
@@ -248,7 +250,8 @@ export async function Navbar() {
                     </SheetClose>
                   </div>
                 </nav>
-                <div className="mt-auto flex flex-col gap-2 border-t border-border p-4">
+                <div className="mt-auto flex flex-col gap-3 border-t border-border p-4">
+                  <LocaleSwitcherMobile />
                   <SheetClose asChild>
                     <Button asChild variant="outline" className="rounded-lg">
                       <Link href="/contact">{t("contact")}</Link>
