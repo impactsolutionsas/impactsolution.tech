@@ -37,7 +37,7 @@ export function ExpertiseHero({
   const shouldReduceMotion = useReducedMotion();
 
   return (
-    <section className="relative overflow-hidden bg-navy-deep">
+    <section className="-mt-16 lg:-mt-[calc(68px+1rem)] relative overflow-hidden bg-navy-deep">
       {/* Animated grid background */}
       <div
         aria-hidden
@@ -82,7 +82,7 @@ export function ExpertiseHero({
         )}
       </div>
 
-      <div className="relative mx-auto max-w-7xl px-4 pt-24 pb-20 sm:px-6 sm:pt-32 sm:pb-28 lg:px-8 lg:pt-36 lg:pb-32">
+      <div className="relative mx-auto max-w-7xl px-4 pt-32 pb-20 sm:px-6 sm:pt-40 sm:pb-28 lg:px-8 lg:pt-44 lg:pb-32">
         <motion.div
           variants={container}
           initial={shouldReduceMotion ? "show" : "hidden"}

@@ -57,7 +57,7 @@ export default async function RootLayout({
       <body className="min-h-full flex flex-col">
         <NextIntlClientProvider>
           <Navbar />
-          <main className="flex-1">{children}</main>
+          <main className="flex-1 pt-16 lg:pt-[calc(68px+1rem)]">{children}</main>
           <Footer />
         </NextIntlClientProvider>
       </body>

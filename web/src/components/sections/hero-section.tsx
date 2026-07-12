@@ -38,7 +38,7 @@ export function HeroSection({
   secondaryCta,
 }: HeroSectionProps) {
   return (
-    <section className="relative overflow-hidden bg-background">
+    <section className="-mt-16 lg:-mt-[calc(68px+1rem)] relative overflow-hidden bg-background">
       {/* Desktop: full-bleed photo blending into the white background */}
       <div className="absolute inset-0 hidden lg:block">
         <Image
@@ -53,7 +53,7 @@ export function HeroSection({
         <div className="absolute inset-x-0 bottom-0 h-40 bg-linear-to-b from-transparent to-muted" />
       </div>
 
-      <div className="relative mx-auto max-w-7xl px-4 pt-20 pb-12 sm:px-6 lg:px-8 lg:py-32">
+      <div className="relative mx-auto max-w-7xl px-4 pt-28 pb-12 sm:px-6 lg:px-8 lg:pt-40 lg:pb-32">
         <motion.div
           variants={container}
           initial="hidden"
