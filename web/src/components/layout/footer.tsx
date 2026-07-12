@@ -17,24 +17,23 @@ export async function Footer() {
   const navLinks = [
     { key: "about", href: "/about" },
     { key: "solutions", href: "/solutions" },
-    { key: "caseStudies", href: "/case-studies" },
-    { key: "resources", href: "/resources" },
-    { key: "careers", href: "/careers" },
     { key: "contact", href: "/contact" },
   ] as const;
 
   const expertiseLinks = [
-    { key: "digitalTransformation", href: "/expertise/digital-transformation" },
-    { key: "ai", href: "/expertise/artificial-intelligence" },
-    { key: "cloudArchitecture", href: "/expertise/cloud-architecture" },
-    { key: "cybersecurity", href: "/expertise/cybersecurity" },
+    { key: "digitalTransformation", href: "/expertise" },
+    { key: "ai", href: "/expertise" },
+    { key: "cloudArchitecture", href: "/expertise" },
+    { key: "cybersecurity", href: "/expertise" },
   ] as const;
 
   const solutionLinks = [
     { key: "kereya", href: "/solutions/kereya" },
     { key: "passbi", href: "/solutions/passbi" },
     { key: "afriassess", href: "/solutions/afriassess" },
-    { key: "custom", href: "/solutions/custom" },
+    { key: "jokoai", href: "/solutions/jokoai" },
+    { key: "amanet", href: "/solutions/amanet" },
+    { key: "custom", href: "/solutions" },
   ] as const;
 
   return (
