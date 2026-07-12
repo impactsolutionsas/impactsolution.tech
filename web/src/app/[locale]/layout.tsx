@@ -6,7 +6,7 @@ import { routing } from "@/i18n/routing";
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
 import "../globals.css";
-
+import { Analytics } from "@vercel/analytics/next"
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
@@ -56,6 +56,7 @@ export default async function RootLayout({
     >
       <body className="min-h-full flex flex-col">
         <NextIntlClientProvider>
+          <Analytics/>
           <Navbar />
           <main className="flex-1 pt-16 lg:pt-[calc(68px+1rem)]">{children}</main>
           <Footer />
