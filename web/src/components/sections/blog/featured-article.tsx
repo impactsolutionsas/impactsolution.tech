@@ -30,7 +30,7 @@ export function FeaturedArticle({
     <motion.article
       initial={{ opacity: 0, y: 24 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+      transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] as const }}
       className="group relative overflow-hidden rounded-2xl border border-border bg-card"
     >
       <div className="grid lg:grid-cols-2">

@@ -58,7 +58,7 @@ export function FaqSection({ eyebrow, title, items }: FaqSectionProps) {
                       initial={shouldReduceMotion ? { opacity: 1 } : { height: 0, opacity: 0 }}
                       animate={{ height: "auto", opacity: 1 }}
                       exit={{ height: 0, opacity: 0 }}
-                      transition={{ duration: 0.25, ease: [0.16, 1, 0.3, 1] }}
+                      transition={{ duration: 0.25, ease: [0.16, 1, 0.3, 1] as const }}
                       className="overflow-hidden"
                     >
                       <p className="pt-3 text-sm text-muted-foreground leading-relaxed sm:text-base">

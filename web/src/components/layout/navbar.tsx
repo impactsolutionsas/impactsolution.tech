@@ -130,14 +130,6 @@ export async function Navbar() {
                       {t("news")}
                     </Link>
                   </NavigationMenuItem>
-                  <NavigationMenuItem>
-                    <Link
-                      href="/careers"
-                      className="rounded-lg px-3.5 py-2 text-[13px] font-medium text-foreground/65 transition-all duration-200 hover:bg-foreground/[0.04] hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
-                    >
-                      {t("careers")}
-                    </Link>
-                  </NavigationMenuItem>
                 </NavigationMenuList>
               </NavigationMenu>
             </nav>
