@@ -409,7 +409,7 @@ function SolutionIllustration({ slug, accent, accentSafe }: { slug: SolutionKey;
         <path d="M120 140 L140 120 L160 135 L180 115 L200 130 L220 110 L240 125" stroke={accentSafe} strokeWidth="1.5" opacity="0.25" strokeLinecap="round" />
         <ellipse cx="280" cy="130" rx="50" ry="35" fill={accent} opacity="0.06" />
         <circle cx="280" cy="130" r="15" fill={accentSafe} opacity="0.12" />
-        <rect x="100" y="160" width="80" height="60" rx="8" fill={accent} opacity="0.05" stroke={accent} strokeWidth="0.5" opacity="0.15" />
+        <rect x="100" y="160" width="80" height="60" rx="8" fill={accent} stroke={accent} strokeWidth="0.5" opacity="0.15" />
         <rect x="110" y="175" width="30" height="3" rx="1.5" fill={accentSafe} opacity="0.2" />
         <rect x="110" y="185" width="50" height="3" rx="1.5" fill={accent} opacity="0.12" />
         <rect x="110" y="195" width="40" height="3" rx="1.5" fill={accent} opacity="0.08" />
@@ -440,8 +440,8 @@ function SolutionIllustration({ slug, accent, accentSafe }: { slug: SolutionKey;
         <rect x="160" y="130" width="40" height="4" rx="2" fill={accentSafe} opacity="0.2" />
         <rect x="160" y="140" width="70" height="4" rx="2" fill={accent} opacity="0.12" />
         <rect x="160" y="150" width="55" height="4" rx="2" fill={accent} opacity="0.08" />
-        <circle cx="100" cy="180" r="20" fill={accent} opacity="0.08" stroke={accentSafe} strokeWidth="1" opacity="0.15" />
-        <circle cx="300" cy="160" r="15" fill={accent} opacity="0.08" stroke={accentSafe} strokeWidth="1" opacity="0.15" />
+        <circle cx="100" cy="180" r="20" fill={accent} stroke={accentSafe} strokeWidth="1" opacity="0.15" />
+        <circle cx="300" cy="160" r="15" fill={accent} stroke={accentSafe} strokeWidth="1" opacity="0.15" />
         <circle cx="180" cy="180" r="4" fill={accentSafe} opacity="0.4" />
         <circle cx="300" cy="220" r="5" fill={accent} opacity="0.5" />
       </svg>
@@ -504,7 +504,7 @@ function ShowcaseIllustration({ slug, accent, accentSafe }: { slug: SolutionKey;
       <div className="flex flex-col items-center gap-4 p-8">
         <svg viewBox="0 0 800 300" fill="none" className="w-full max-w-2xl">
           {/* Document + map split */}
-          <rect x="60" y="40" width="300" height="220" rx="12" fill={accent} opacity="0.04" stroke={accent} strokeWidth="1" opacity="0.1" />
+          <rect x="60" y="40" width="300" height="220" rx="12" fill={accent} stroke={accent} strokeWidth="1" opacity="0.1" />
           <rect x="80" y="65" width="120" height="8" rx="4" fill={accentSafe} opacity="0.2" />
           <rect x="80" y="85" width="250" height="5" rx="2.5" fill={accent} opacity="0.1" />
           <rect x="80" y="98" width="220" height="5" rx="2.5" fill={accent} opacity="0.07" />
@@ -517,7 +517,7 @@ function ShowcaseIllustration({ slug, accent, accentSafe }: { slug: SolutionKey;
           {/* Arrow */}
           <path d="M380 150 L440 150" stroke={accentSafe} strokeWidth="2" opacity="0.3" strokeDasharray="6 4" />
           {/* Map */}
-          <rect x="460" y="40" width="280" height="220" rx="12" fill={accent} opacity="0.06" stroke={accent} strokeWidth="1" opacity="0.1" />
+          <rect x="460" y="40" width="280" height="220" rx="12" fill={accent} stroke={accent} strokeWidth="1" opacity="0.1" />
           <ellipse cx="600" cy="130" rx="80" ry="60" fill={accent} opacity="0.08" />
           <ellipse cx="580" cy="150" rx="40" ry="30" fill={accentSafe} opacity="0.08" />
           <circle cx="560" cy="140" r="6" fill={accentSafe} opacity="0.3" />
@@ -532,7 +532,7 @@ function ShowcaseIllustration({ slug, accent, accentSafe }: { slug: SolutionKey;
       <div className="flex flex-col items-center gap-4 p-8">
         <svg viewBox="0 0 800 300" fill="none" className="w-full max-w-2xl">
           {/* Dashboard / OS modules */}
-          <rect x="80" y="30" width="640" height="240" rx="16" fill={accent} opacity="0.03" stroke={accent} strokeWidth="1" opacity="0.08" />
+          <rect x="80" y="30" width="640" height="240" rx="16" fill={accent} stroke={accent} strokeWidth="1" opacity="0.08" />
           {/* Sidebar */}
           <rect x="80" y="30" width="140" height="240" rx="16" fill={accent} opacity="0.04" />
           <rect x="100" y="55" width="60" height="6" rx="3" fill={accentSafe} opacity="0.25" />
@@ -542,19 +542,19 @@ function ShowcaseIllustration({ slug, accent, accentSafe }: { slug: SolutionKey;
           <rect x="100" y="125" width="70" height="5" rx="2.5" fill={accent} opacity="0.08" />
           <rect x="100" y="155" width="100" height="20" rx="6" fill={accentSafe} opacity="0.1" />
           {/* Main area */}
-          <rect x="240" y="50" width="200" height="90" rx="10" fill={accent} opacity="0.05" stroke={accent} strokeWidth="0.5" opacity="0.1" />
+          <rect x="240" y="50" width="200" height="90" rx="10" fill={accent} stroke={accent} strokeWidth="0.5" opacity="0.1" />
           <rect x="260" y="70" width="80" height="7" rx="3.5" fill={accentSafe} opacity="0.2" />
           <rect x="260" y="90" width="160" height="5" rx="2.5" fill={accent} opacity="0.08" />
           <rect x="260" y="105" width="120" height="5" rx="2.5" fill={accent} opacity="0.06" />
           <rect x="260" y="120" width="60" height="12" rx="6" fill={accentSafe} opacity="0.12" />
 
-          <rect x="460" y="50" width="240" height="90" rx="10" fill={accent} opacity="0.05" stroke={accent} strokeWidth="0.5" opacity="0.1" />
+          <rect x="460" y="50" width="240" height="90" rx="10" fill={accent} stroke={accent} strokeWidth="0.5" opacity="0.1" />
           <rect x="480" y="70" width="60" height="7" rx="3.5" fill={accentSafe} opacity="0.2" />
           <rect x="480" y="90" width="180" height="35" rx="6" fill={accent} opacity="0.04" />
           <rect x="492" y="100" width="50" height="4" rx="2" fill={accentSafe} opacity="0.15" />
           <rect x="492" y="110" width="80" height="4" rx="2" fill={accent} opacity="0.1" />
 
-          <rect x="240" y="160" width="460" height="90" rx="10" fill={accent} opacity="0.04" stroke={accent} strokeWidth="0.5" opacity="0.08" />
+          <rect x="240" y="160" width="460" height="90" rx="10" fill={accent} stroke={accent} strokeWidth="0.5" opacity="0.08" />
           <rect x="260" y="180" width="100" height="7" rx="3.5" fill={accentSafe} opacity="0.2" />
           <rect x="260" y="200" width="400" height="5" rx="2.5" fill={accent} opacity="0.06" />
           <rect x="260" y="215" width="350" height="5" rx="2.5" fill={accent} opacity="0.05" />
@@ -566,7 +566,7 @@ function ShowcaseIllustration({ slug, accent, accentSafe }: { slug: SolutionKey;
       <div className="flex flex-col items-center gap-4 p-8">
         <svg viewBox="0 0 800 300" fill="none" className="w-full max-w-2xl">
           {/* ERP pipeline flow */}
-          <rect x="40" y="100" width="130" height="100" rx="12" fill={accent} opacity="0.06" stroke={accent} strokeWidth="1" opacity="0.12" />
+          <rect x="40" y="100" width="130" height="100" rx="12" fill={accent} stroke={accent} strokeWidth="1" opacity="0.12" />
           <rect x="55" y="120" width="50" height="6" rx="3" fill={accentSafe} opacity="0.2" />
           <rect x="55" y="135" width="90" height="5" rx="2.5" fill={accent} opacity="0.1" />
           <rect x="55" y="148" width="70" height="5" rx="2.5" fill={accent} opacity="0.07" />
@@ -575,7 +575,7 @@ function ShowcaseIllustration({ slug, accent, accentSafe }: { slug: SolutionKey;
           <path d="M170 150 L210 150" stroke={accentSafe} strokeWidth="1.5" opacity="0.25" />
           <circle cx="190" cy="150" r="3" fill={accentSafe} opacity="0.3" />
 
-          <rect x="210" y="100" width="130" height="100" rx="12" fill={accent} opacity="0.08" stroke={accent} strokeWidth="1" opacity="0.15" />
+          <rect x="210" y="100" width="130" height="100" rx="12" fill={accent} stroke={accent} strokeWidth="1" opacity="0.15" />
           <rect x="225" y="120" width="50" height="6" rx="3" fill={accentSafe} opacity="0.25" />
           <rect x="225" y="135" width="90" height="5" rx="2.5" fill={accent} opacity="0.12" />
           <rect x="225" y="148" width="80" height="5" rx="2.5" fill={accent} opacity="0.08" />
@@ -584,7 +584,7 @@ function ShowcaseIllustration({ slug, accent, accentSafe }: { slug: SolutionKey;
           <path d="M340 150 L380 150" stroke={accentSafe} strokeWidth="1.5" opacity="0.25" />
           <circle cx="360" cy="150" r="3" fill={accentSafe} opacity="0.3" />
 
-          <rect x="380" y="100" width="130" height="100" rx="12" fill={accent} opacity="0.06" stroke={accent} strokeWidth="1" opacity="0.12" />
+          <rect x="380" y="100" width="130" height="100" rx="12" fill={accent} stroke={accent} strokeWidth="1" opacity="0.12" />
           <rect x="395" y="120" width="50" height="6" rx="3" fill={accentSafe} opacity="0.2" />
           <rect x="395" y="135" width="90" height="5" rx="2.5" fill={accent} opacity="0.1" />
           <rect x="395" y="148" width="75" height="5" rx="2.5" fill={accent} opacity="0.07" />
@@ -593,7 +593,7 @@ function ShowcaseIllustration({ slug, accent, accentSafe }: { slug: SolutionKey;
           <path d="M510 150 L550 150" stroke={accentSafe} strokeWidth="1.5" opacity="0.25" />
           <circle cx="530" cy="150" r="3" fill={accentSafe} opacity="0.3" />
 
-          <rect x="550" y="100" width="130" height="100" rx="12" fill={accent} opacity="0.06" stroke={accent} strokeWidth="1" opacity="0.12" />
+          <rect x="550" y="100" width="130" height="100" rx="12" fill={accent} stroke={accent} strokeWidth="1" opacity="0.12" />
           <rect x="565" y="120" width="50" height="6" rx="3" fill={accentSafe} opacity="0.2" />
           <rect x="565" y="135" width="90" height="5" rx="2.5" fill={accent} opacity="0.1" />
           <rect x="565" y="148" width="85" height="5" rx="2.5" fill={accent} opacity="0.07" />
