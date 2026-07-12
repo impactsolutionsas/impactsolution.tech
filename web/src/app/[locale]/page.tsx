@@ -20,7 +20,9 @@ import { SectionHeading } from "@/components/sections/section-heading";
 import { ExpertiseCard } from "@/components/sections/expertise-card";
 import { ProductsCarousel } from "@/components/sections/products-carousel";
 import { CtaSection } from "@/components/sections/cta-section";
+import { HomeNewsSection } from "@/components/sections/blog/home-news-section";
 import { SOLUTION_KEYS } from "@/lib/solutions";
+import { getRecentArticles } from "@/lib/articles";
 
 const EXPERTISE_ICONS = {
   digitalTransformation: RefreshCw,
@@ -34,11 +36,20 @@ const EXPERTISE_ICONS = {
 } as const;
 
 export default async function HomePage() {
-  const [tHome, tExp, tSol] = await Promise.all([
+  const [tHome, tExp, tSol, tBlog] = await Promise.all([
     getTranslations("HomePage"),
     getTranslations("ExpertisesPage"),
     getTranslations("SolutionsPage"),
+    getTranslations("BlogPage"),
   ]);
+
+  const recentArticles = getRecentArticles(3);
+  const categoryTranslations: Record<string, string> = {};
+  recentArticles.forEach((a) => {
+    a.categories.forEach((cat) => {
+      categoryTranslations[cat] = tBlog(`categories.${cat}`);
+    });
+  });
 
   const expertiseKeys = Object.keys(
     EXPERTISE_ICONS
@@ -148,14 +159,29 @@ export default async function HomePage() {
       {/* News */}
       <section className="border-t border-border">
         <div className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
-          <SectionHeading
-            eyebrow={tHome("newsSection.eyebrow")}
-            title={tHome("newsSection.title")}
-          />
-          <div className="mt-12 flex flex-col items-center justify-center gap-2 rounded-2xl border border-dashed border-border bg-muted/40 py-16 text-center">
-            <p className="text-sm font-medium text-muted-foreground">
-              {tHome("newsSection.comingSoon")}
-            </p>
+          <div className="flex flex-col items-start justify-between gap-6 sm:flex-row sm:items-end">
+            <SectionHeading
+              eyebrow={tHome("newsSection.eyebrow")}
+              title={tHome("newsSection.title")}
+            />
+            <Button asChild variant="ghost" className="shrink-0">
+              <Link href="/news">
+                {tHome("newsSection.viewAll")}
+                <ArrowRight className="size-4" />
+              </Link>
+            </Button>
+          </div>
+          <div className="mt-12">
+            <HomeNewsSection
+              articles={recentArticles}
+              translations={{
+                eyebrow: tHome("newsSection.eyebrow"),
+                title: tHome("newsSection.title"),
+                viewAll: tHome("newsSection.viewAll"),
+                readArticle: tBlog("readArticle"),
+                categories: categoryTranslations,
+              }}
+            />
           </div>
         </div>
       </section>

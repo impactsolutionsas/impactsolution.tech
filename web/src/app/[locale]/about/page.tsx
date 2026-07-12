@@ -1,32 +1,23 @@
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
-import {
-  Compass,
-  Eye,
-  Lightbulb,
-  Award,
-  Target,
-  ShieldCheck,
-  Globe2,
-  Users,
-  Scale,
-} from "lucide-react";
-
 import { PageHeader } from "@/components/sections/page-header";
-import { ExpertiseCard } from "@/components/sections/expertise-card";
 import { CtaSection } from "@/components/sections/cta-section";
+import { AboutStory } from "@/components/sections/about/about-story";
+import { AboutMissionVision } from "@/components/sections/about/about-mission-vision";
+import { AboutStats } from "@/components/sections/about/about-stats";
+import { AboutValues } from "@/components/sections/about/about-values";
+import { AboutApproach } from "@/components/sections/about/about-approach";
+import { AboutTeam } from "@/components/sections/about/about-team";
 
-const VALUE_ICONS = {
-  innovation: Lightbulb,
-  excellence: Award,
-  impact: Target,
-  reliability: ShieldCheck,
-  openness: Globe2,
-  collaboration: Users,
-  ethics: Scale,
-} as const;
-
-const VALUE_KEYS = Object.keys(VALUE_ICONS) as (keyof typeof VALUE_ICONS)[];
+const VALUE_KEYS = [
+  "innovation",
+  "excellence",
+  "impact",
+  "reliability",
+  "openness",
+  "collaboration",
+  "ethics",
+] as const;
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("AboutPage");
@@ -43,92 +34,97 @@ export default async function AboutPage() {
 
   return (
     <>
-      <PageHeader eyebrow={t("hero.eyebrow")} title={t("hero.title")} />
+      <PageHeader
+        eyebrow={t("hero.eyebrow")}
+        title={t("hero.title")}
+        description={t("hero.description")}
+      />
 
-      {/* History */}
-      <section className="border-t border-border">
-        <div className="mx-auto grid max-w-6xl grid-cols-1 gap-8 px-4 py-20 sm:px-6 lg:grid-cols-12 lg:gap-12 lg:px-8">
-          <h2 className="font-heading text-2xl font-bold tracking-tight text-foreground lg:col-span-4">
-            {t("history.title")}
-          </h2>
-          <p className="text-lg leading-relaxed text-muted-foreground lg:col-span-7 lg:col-start-6">
-            {t("history.body")}
-          </p>
-        </div>
-      </section>
+      <AboutStory
+        eyebrow={t("history.eyebrow")}
+        title={t("history.title")}
+        paragraph1={t("history.paragraph1")}
+        paragraph2={t("history.paragraph2")}
+        paragraph3={t("history.paragraph3")}
+      />
 
-      {/* Mission & Vision */}
-      <section className="border-t border-border bg-muted/40">
-        <div className="mx-auto grid max-w-6xl grid-cols-1 gap-6 px-4 py-20 sm:px-6 md:grid-cols-2 lg:px-8">
-          <div className="flex flex-col gap-4 rounded-2xl border border-border bg-background p-8">
-            <div className="flex size-12 items-center justify-center rounded-xl bg-primary/5 text-primary">
-              <Compass className="size-6" strokeWidth={1.75} />
-            </div>
-            <h2 className="font-heading text-xl font-bold text-foreground">
-              {t("mission.title")}
-            </h2>
-            <p className="text-base leading-relaxed text-muted-foreground">
-              {t("mission.body")}
-            </p>
-          </div>
-          <div className="flex flex-col gap-4 rounded-2xl border border-border bg-background p-8">
-            <div className="flex size-12 items-center justify-center rounded-xl bg-primary/5 text-primary">
-              <Eye className="size-6" strokeWidth={1.75} />
-            </div>
-            <h2 className="font-heading text-xl font-bold text-foreground">
-              {t("vision.title")}
-            </h2>
-            <p className="text-base leading-relaxed text-muted-foreground">
-              {t("vision.body")}
-            </p>
-          </div>
-        </div>
-      </section>
+      <AboutMissionVision
+        missionTitle={t("mission.title")}
+        missionBody={t("mission.body")}
+        visionTitle={t("vision.title")}
+        visionBody={t("vision.body")}
+      />
 
-      {/* Values */}
-      <section className="border-t border-border">
-        <div className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
-          <h2 className="text-center font-heading text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-            {t("values.title")}
-          </h2>
-          <div className="mt-12 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {VALUE_KEYS.map((key) => (
-              <ExpertiseCard
-                key={key}
-                icon={VALUE_ICONS[key]}
-                title={t(`values.${key}.title`)}
-                description={t(`values.${key}.body`)}
-              />
-            ))}
-          </div>
-        </div>
-      </section>
+      <AboutStats
+        stats={[
+          {
+            value: tHome("impactSection.stat1Value"),
+            label: tHome("impactSection.stat1Label"),
+          },
+          {
+            value: tHome("impactSection.stat2Value"),
+            label: tHome("impactSection.stat2Label"),
+          },
+          {
+            value: tHome("impactSection.stat3Value"),
+            label: tHome("impactSection.stat3Label"),
+          },
+          {
+            value: tHome("impactSection.stat4Value"),
+            label: tHome("impactSection.stat4Label"),
+          },
+        ]}
+      />
 
-      {/* Approach */}
-      <section className="border-t border-border bg-muted/40">
-        <div className="mx-auto flex max-w-3xl flex-col items-center gap-5 px-4 py-20 text-center sm:px-6 lg:px-8">
-          <span className="text-sm font-semibold tracking-wide text-primary uppercase">
-            {t("approach.title")}
-          </span>
-          <p className="text-2xl leading-snug font-semibold tracking-tight text-foreground sm:text-3xl">
-            {t("approach.body")}
-          </p>
-        </div>
-      </section>
+      <AboutValues
+        title={t("values.title")}
+        subtitle={t("values.subtitle")}
+        values={VALUE_KEYS.map((key) => ({
+          key,
+          title: t(`values.${key}.title`),
+          description: t(`values.${key}.body`),
+        }))}
+      />
 
-      {/* Team */}
-      <section className="border-t border-border">
-        <div className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
-          <h2 className="font-heading text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-            {t("team.title")}
-          </h2>
-          <div className="mt-10 flex flex-col items-center justify-center gap-2 rounded-2xl border border-dashed border-border bg-muted/40 py-16 text-center">
-            <p className="max-w-lg text-sm font-medium text-muted-foreground">
-              {t("team.body")}
-            </p>
-          </div>
-        </div>
-      </section>
+      <AboutApproach
+        eyebrow={t("approach.eyebrow")}
+        title={t("approach.title")}
+        subtitle={t("approach.subtitle")}
+        steps={[
+          {
+            number: t("approach.steps.s1.number"),
+            title: t("approach.steps.s1.title"),
+            body: t("approach.steps.s1.body"),
+          },
+          {
+            number: t("approach.steps.s2.number"),
+            title: t("approach.steps.s2.title"),
+            body: t("approach.steps.s2.body"),
+          },
+          {
+            number: t("approach.steps.s3.number"),
+            title: t("approach.steps.s3.title"),
+            body: t("approach.steps.s3.body"),
+          },
+          {
+            number: t("approach.steps.s4.number"),
+            title: t("approach.steps.s4.title"),
+            body: t("approach.steps.s4.body"),
+          },
+          {
+            number: t("approach.steps.s5.number"),
+            title: t("approach.steps.s5.title"),
+            body: t("approach.steps.s5.body"),
+          },
+        ]}
+      />
+
+      <AboutTeam
+        subtitle={t("team.eyebrow")}
+        title={t("team.title")}
+        body={t("team.body")}
+        cta={t("team.cta")}
+      />
 
       <CtaSection
         eyebrow={tHome("cta.eyebrow")}

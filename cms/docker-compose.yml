@@ -1,0 +1,19 @@
+version: '3'
+
+# Dev local uniquement : Postgres seul. L'app (`npm run dev`) tourne sur l'hôte.
+# En pointant DATABASE_URI vers une instance Supabase de dev, ce service est inutile.
+services:
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: payload
+    ports:
+      - '5432:5432'
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:

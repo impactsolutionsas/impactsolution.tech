@@ -57,9 +57,9 @@
       "title": "Measurable results",
       "stat1Value": "50+",
       "stat1Label": "Projects delivered",
-      "stat2Value": "12+",
+      "stat2Value": "3+",
       "stat2Label": "Countries of operation",
-      "stat3Value": "100+",
+      "stat3Value": "10+",
       "stat3Label": "Partners & institutions",
       "stat4Value": "1M+",
       "stat4Label": "People impacted"
@@ -81,58 +81,368 @@
   "AboutPage": {
     "hero": {
       "eyebrow": "About",
-      "title": "Digital engineering built for Africa"
+      "title": "Digital engineering built for Africa",
+      "description": "We design platforms that transform healthcare, mobility, and governance across the continent — with the rigor of a software company and the grounding of a field team."
     },
     "history": {
+      "eyebrow": "Who we are",
       "title": "Our story",
-      "body": "Impact Solutions was founded on a conviction: Africa doesn't need imported solutions, but digital engineering designed for its own realities. [CLIENT-FILL: founding year, key milestones, countries of operation]."
+      "paragraph1": "Impact Solutions was founded on a conviction: Africa doesn't need imported solutions, but digital engineering built from the continent, for its own realities.",
+      "paragraph2": "Based in Dakar, our team brings together engineers, data scientists, and designers who grew up with the constraints they solve: intermittent connectivity, heterogeneous systems, and demanding institutional requirements.",
+      "paragraph3": "Today, our platforms — KEREYA, PassBi, AFRIASSESS, JOKO AI, and AMANET — are deployed in Senegal, Guinea, and soon across the WAEMU zone, serving ministries, international funders, and private operators."
     },
     "mission": {
-      "title": "Mission",
-      "body": "Design digital solutions that durably improve essential services in Africa."
+      "title": "Our mission",
+      "body": "Design and deploy digital solutions that durably improve essential services in Africa — healthcare, mobility, environment, governance. Every line of code we write must produce a measurable impact in the field."
     },
     "vision": {
-      "title": "Vision",
-      "body": "Become the pan-African reference in impact-driven digital engineering, recognized by institutions, funders and industrial partners."
+      "title": "Our vision",
+      "body": "Become the pan-African reference in impact-driven digital engineering: a company whose platforms are recognized by institutions, funders, and industrial partners as the standard of technical excellence on the continent."
     },
     "values": {
       "title": "Our values",
+      "subtitle": "Seven principles that guide every decision, every line of code, every deployment.",
       "innovation": {
         "title": "Innovation",
-        "body": "We continuously explore new technological approaches to solve complex problems."
+        "body": "We continuously explore new approaches — AI, offline-first, interoperability — to solve problems that conventional solutions overlook."
       },
       "excellence": {
         "title": "Excellence",
-        "body": "We pursue technical rigor and quality at every stage, from scoping to deployment."
+        "body": "Technical rigor at every stage: architecture built for scale, automated testing, systematic code reviews."
       },
       "impact": {
         "title": "Impact",
-        "body": "Every solution we build must produce a measurable effect in the field."
+        "body": "Every solution must deliver a measurable effect. No technology for technology's sake — results for people."
       },
       "reliability": {
         "title": "Reliability",
-        "body": "Our platforms are designed to run stably, securely and durably."
+        "body": "Our platforms work when there's no stable network or constant power. Robustness isn't a bonus, it's a prerequisite."
       },
       "openness": {
         "title": "Openness",
-        "body": "We favor open standards and interoperability over technological silos."
+        "body": "Open standards, documented APIs, native interoperability. We build bridges, not silos."
       },
       "collaboration": {
         "title": "Collaboration",
-        "body": "We work alongside our partners, not just for them."
+        "body": "We work alongside our partners, not just for them. Co-design, skills transfer, local ownership."
       },
       "ethics": {
         "title": "Ethics",
-        "body": "We place data protection and responsible technology use at the heart of our choices."
+        "body": "Data protection, explainable AI, informed consent. Responsible technology is the only sustainable technology."
       }
     },
     "approach": {
+      "eyebrow": "How we work",
       "title": "Our approach",
-      "body": "We combine technical expertise, field understanding and methodological rigor to deliver solutions that last well beyond initial deployment."
+      "subtitle": "From field understanding to production deployment, a proven five-step methodology.",
+      "steps": {
+        "s1": {
+          "number": "Step 01",
+          "title": "Scoping & immersion",
+          "body": "Field workshops with business teams to understand real constraints, formalize needs, and define success indicators."
+        },
+        "s2": {
+          "number": "Step 02",
+          "title": "Product design",
+          "body": "Interactive prototypes, user testing, and scope trade-offs before any code is written. We validate with end users, not in meeting rooms."
+        },
+        "s3": {
+          "number": "Step 03",
+          "title": "Engineering",
+          "body": "Iterative development, architecture built for scale, automated testing, and continuous integration. Systematic code review."
+        },
+        "s4": {
+          "number": "Step 04",
+          "title": "Deployment",
+          "body": "Controlled production rollout, field team training, and skills transfer for lasting ownership."
+        },
+        "s5": {
+          "number": "Step 05",
+          "title": "Run & evolution",
+          "body": "Continuous monitoring, responsive support, improvement cycles, and a long-term roadmap co-built with our partners."
+        }
+      }
     },
     "team": {
-      "title": "Our team",
-      "body": "[CLIENT-FILL: leadership team and key profiles presentation]"
+      "eyebrow": "The team",
+      "title": "Engineers who know the field",
+      "body": "Our team combines high-level technical expertise with a deep understanding of African contexts. Software engineers, data scientists, GIS specialists, UX designers — every profile is chosen for their ability to deliver solutions that work in the real conditions of the continent.",
+      "cta": "Join the team"
+    }
+  },
+  "ExpertisePage": {
+    "meta": {
+      "title": "Our Expertise",
+      "description": "Discover our areas of expertise: AI, web and mobile development, cloud, cybersecurity, data, digital health and more. IMPACT SOLUTIONS drives Africa's digital transformation."
+    },
+    "hero": {
+      "eyebrow": "Our Expertise",
+      "title": "Our Expertise",
+      "subtitle": "We design innovative digital solutions that address the strategic challenges of African businesses, institutions and governments.",
+      "primaryCta": "Discover our services",
+      "secondaryCta": "Talk to an expert"
+    },
+    "approach": {
+      "eyebrow": "Our approach",
+      "title": "From strategy to deployment",
+      "subtitle": "A proven 7-step methodology to support our clients end-to-end.",
+      "steps": {
+        "s1": { "title": "Understand", "description": "Field immersion, needs analysis and identification of strategic challenges." },
+        "s2": { "title": "Advise", "description": "Recommendations and technology decisions adapted to your context." },
+        "s3": { "title": "Design", "description": "Architecture, prototyping and validation with stakeholders." },
+        "s4": { "title": "Develop", "description": "Iterative development, automated testing and continuous integration." },
+        "s5": { "title": "Deploy", "description": "Controlled production rollout and change management support." },
+        "s6": { "title": "Train", "description": "Skills transfer and team empowerment." },
+        "s7": { "title": "Maintain", "description": "Continuous support, monitoring and long-term evolution." }
+      }
+    },
+    "domains": {
+      "eyebrow": "Expertise areas",
+      "title": "12 domains of excellence",
+      "subtitle": "From artificial intelligence to digital transformation, we cover the full technology spectrum.",
+      "discover": "Discover",
+      "ai": {
+        "title": "Artificial Intelligence",
+        "description": "Generative AI, AI Agents, Chatbots, Computer Vision, NLP, intelligent automation and Machine Learning serving your business challenges.",
+        "sector1": "Healthcare",
+        "sector2": "Finance",
+        "sector3": "Governance"
+      },
+      "web": {
+        "title": "Web Development",
+        "description": "Web Applications, SaaS, ERP, CRM and business portals that are robust, scalable and built for growth.",
+        "sector1": "All sectors",
+        "sector2": "Enterprises",
+        "sector3": "Institutions"
+      },
+      "mobile": {
+        "title": "Mobile Development",
+        "description": "Android, iOS, Flutter and React Native applications designed for real-world use, including offline mode.",
+        "sector1": "Transport",
+        "sector2": "Healthcare",
+        "sector3": "Finance"
+      },
+      "cloud": {
+        "title": "Cloud & DevOps",
+        "description": "Secured AWS, Azure, GCP infrastructure with Docker, Kubernetes and automated CI/CD pipelines.",
+        "sector1": "Technology",
+        "sector2": "Banking",
+        "sector3": "Telecoms"
+      },
+      "cybersecurity": {
+        "title": "Cybersecurity",
+        "description": "Security audits, IAM, penetration testing, Cloud security and IT security governance.",
+        "sector1": "Finance",
+        "sector2": "Government",
+        "sector3": "Healthcare"
+      },
+      "data": {
+        "title": "Data & Business Intelligence",
+        "description": "Dashboards, Data Warehouse, ETL, Big Data and Analytics to turn your data into informed decisions.",
+        "sector1": "All sectors",
+        "sector2": "NGOs",
+        "sector3": "Industries"
+      },
+      "ehealth": {
+        "title": "Digital Health",
+        "description": "Electronic medical records, telemedicine, hospital information systems and medical AI.",
+        "sector1": "Hospitals",
+        "sector2": "Ministries",
+        "sector3": "Health NGOs"
+      },
+      "logistics": {
+        "title": "Logistics & Transport",
+        "description": "TMS, ticketing, fleet management, traceability and supply chain optimization.",
+        "sector1": "Transport",
+        "sector2": "Logistics",
+        "sector3": "Commerce"
+      },
+      "fintech": {
+        "title": "Digital Finance",
+        "description": "Digital payments, FinTech, Mobile Money and accounting ERP compliant with OHADA and BCEAO standards.",
+        "sector1": "Banking",
+        "sector2": "Insurance",
+        "sector3": "Startups"
+      },
+      "agritech": {
+        "title": "Digital Agriculture",
+        "description": "AgriTech, supply chain traceability, Smart Farming and IoT to modernize African agriculture.",
+        "sector1": "Agriculture",
+        "sector2": "Cooperatives",
+        "sector3": "Agribusiness"
+      },
+      "govtech": {
+        "title": "GovTech",
+        "description": "Public service digitization, e-Government, digital identity and citizen portals.",
+        "sector1": "Government",
+        "sector2": "Local authorities",
+        "sector3": "Institutions"
+      },
+      "transformation": {
+        "title": "Digital Transformation",
+        "description": "IT audit, urbanization, strategic consulting, master plan and change management support.",
+        "sector1": "Enterprises",
+        "sector2": "Administrations",
+        "sector3": "NGOs"
+      }
+    },
+    "sectors": {
+      "eyebrow": "Industries",
+      "title": "Industries we know",
+      "subtitle": "Our field expertise in these sectors ensures solutions adapted to local realities.",
+      "items": {
+        "s1": "Healthcare",
+        "s2": "Transport",
+        "s3": "Banking",
+        "s4": "Insurance",
+        "s5": "Logistics",
+        "s6": "Industry",
+        "s7": "Agriculture",
+        "s8": "NGOs",
+        "s9": "Education",
+        "s10": "Public Sector",
+        "s11": "Telecommunications",
+        "s12": "Energy"
+      }
+    },
+    "techWall": {
+      "eyebrow": "Technologies",
+      "title": "Technologies we master",
+      "subtitle": "A complete technology ecosystem to tackle any challenge."
+    },
+    "methodology": {
+      "eyebrow": "Methodology",
+      "title": "Our delivery process",
+      "subtitle": "A rigorous methodology that guarantees quality and on-time delivery.",
+      "steps": {
+        "s1": { "title": "Discovery", "description": "Deep understanding of context and needs." },
+        "s2": { "title": "Analysis", "description": "Feasibility study and functional specifications." },
+        "s3": { "title": "Architecture", "description": "Technical design and technology choices." },
+        "s4": { "title": "UX/UI", "description": "User-centered interface design." },
+        "s5": { "title": "Development", "description": "Iterative development in short sprints." },
+        "s6": { "title": "QA", "description": "Automated testing and functional validation." },
+        "s7": { "title": "Deployment", "description": "Production rollout and data migration." },
+        "s8": { "title": "Support", "description": "Ongoing maintenance and responsive support." }
+      }
+    },
+    "whyUs": {
+      "eyebrow": "Why us",
+      "title": "Why choose IMPACT SOLUTIONS?",
+      "subtitle": "What sets us apart from other technology providers.",
+      "items": {
+        "i1": { "title": "Pan-African expertise", "description": "Intimate knowledge of the realities, constraints and opportunities of the African continent." },
+        "i2": { "title": "Multidisciplinary team", "description": "Engineers, data scientists, designers and domain experts united in an integrated team." },
+        "i3": { "title": "Custom solutions", "description": "Every solution is designed for your specific context, no generic products." },
+        "i4": { "title": "Built-in AI", "description": "Artificial intelligence is at the core of our solutions, not a cosmetic add-on." },
+        "i5": { "title": "Agile approach", "description": "Iterative delivery, continuous feedback and permanent adaptation to needs." },
+        "i6": { "title": "Ongoing support", "description": "Post-deployment support, 24/7 monitoring and continuous evolution." },
+        "i7": { "title": "Security by Design", "description": "Security is built in from design, not bolted on after the fact." },
+        "i8": { "title": "International standards", "description": "Compliance with international standards: FHIR, GTFS, ISO 27001, GDPR." }
+      }
+    },
+    "caseStudies": {
+      "eyebrow": "Case studies",
+      "title": "Our successes",
+      "seeMore": "View all cases",
+      "problemLabel": "Problem",
+      "solutionLabel": "Solution",
+      "resultLabel": "Result",
+      "items": {
+        "c1": {
+          "client": "Kolda Medical Region",
+          "sector": "Healthcare",
+          "problem": "High maternal mortality and paper-based patient tracking in rural districts.",
+          "solution": "KEREYA digital maternal health platform with offline-first architecture.",
+          "result": "Continuous tracking of thousands of pregnant women, timestamped digital referral between care levels."
+        },
+        "c2": {
+          "client": "Dem Dikk / AFTU",
+          "sector": "Transport",
+          "problem": "Siloed transport networks, no shared ticketing or multimodal planning.",
+          "solution": "PassBi platform with RAPTOR routing, NFC ticketing and mobile payments.",
+          "result": "292 NFC-equipped buses, official partnership for YOG Dakar 2026."
+        },
+        "c3": {
+          "client": "Environmental consulting firms",
+          "sector": "Environment",
+          "problem": "3-week impact report production, data in incompatible silos.",
+          "solution": "AFRIASSESS: automated harmonization and AI generation of donor-compliant reports.",
+          "result": "RAP report produced in 1 day instead of 3 weeks."
+        },
+        "c4": {
+          "client": "Logistics transit agencies",
+          "sector": "Logistics",
+          "problem": "Manual Excel management, 2-5 day customs clearance, 15-20% error rate.",
+          "solution": "AMANET: 11-module ERP with digitized customs and ML-suggested HS codes.",
+          "result": "80% reduction in file processing time."
+        }
+      }
+    },
+    "kpis": {
+      "eyebrow": "Key figures",
+      "title": "Our impact in numbers",
+      "items": {
+        "k1": { "value": "50+", "label": "Projects delivered" },
+        "k2": { "value": "10+", "label": "Internal and Partner Experts" },
+        "k3": { "value": "3", "label": "Countries served" },
+        "k4": { "value": "95%", "label": "Client satisfaction" },
+        "k5": { "value": "99.9%", "label": "Uptime" },
+        "k6": { "value": "100%", "label": "Custom solutions" }
+      }
+    },
+    "testimonials": {
+      "eyebrow": "Testimonials",
+      "title": "What our partners say",
+      "items": {
+        "t1": {
+          "name": "Dr. Amadou Diallo",
+          "company": "Kolda Medical Region",
+          "quote": "IMPACT SOLUTIONS transformed how we track pregnancies in rural districts. The KEREYA platform works even without network, which changes everything for our health workers."
+        },
+        "t2": {
+          "name": "Fatou Ndiaye",
+          "company": "Innovation Director, Dem Dikk",
+          "quote": "PassBi allowed us to connect our network to all of Dakar's urban transport. The team understands our constraints and delivers with exemplary rigor."
+        },
+        "t3": {
+          "name": "Moussa Camara",
+          "company": "CEO, EvalPro Consulting",
+          "quote": "With AFRIASSESS, we produce in one day what used to take three weeks. Donor compliance is automatic and our clients are impressed."
+        }
+      }
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Frequently asked questions",
+      "items": {
+        "q1": {
+          "question": "What types of projects do you deliver?",
+          "answer": "We deliver projects ranging from web and mobile applications to complex SaaS platforms, including health information systems, intelligent transport solutions, business ERPs and artificial intelligence projects. Each solution is custom-built to address your specific challenges."
+        },
+        "q2": {
+          "question": "Do you work across Africa?",
+          "answer": "Yes, we support clients in 12 African countries. Our headquarters are in Dakar, and we primarily operate in West Africa (Senegal, Guinea, Côte d'Ivoire, Mali, Benin, Togo) with expansion into Central and East Africa."
+        },
+        "q3": {
+          "question": "What technologies do you use?",
+          "answer": "We master a wide technology spectrum: Go, Node.js, Python, React, Next.js, Flutter for development; AWS, Azure, GCP for cloud; PostgreSQL, MongoDB, Redis for databases; and the latest AI models (Claude, GPT, Gemini, Llama) for artificial intelligence."
+        },
+        "q4": {
+          "question": "How long does a project take?",
+          "answer": "Duration depends on complexity: an MVP can be delivered in 6-8 weeks, a full platform in 3-6 months. We favor iterative delivery so you can see initial results quickly and validate direction before each phase."
+        },
+        "q5": {
+          "question": "How does a collaboration start?",
+          "answer": "Everything starts with a conversation to understand your needs. We then organize a scoping workshop to formalize scope, objectives and success metrics. A detailed quote is provided with a provisional timeline. Once approved, we start with a discovery sprint."
+        }
+      }
+    },
+    "cta": {
+      "eyebrow": "Ready to transform your organization?",
+      "title": "Let's transform your organization together.",
+      "subtitle": "Our experts support you in designing and building innovative digital solutions tailored to your challenges.",
+      "primary": "Talk to an expert",
+      "secondary": "Request a quote"
     }
   },
   "ExpertisesPage": {
@@ -256,31 +566,574 @@
   "SolutionsPage": {
     "hero": {
       "eyebrow": "Solutions",
-      "title": "Platforms built for impact, proven in the field"
+      "title": "Platforms built for impact, proven in the field",
+      "description": "Our products support ministries, agencies and donors deploying essential services at scale. Every solution is architected for interoperability, compliance and continuous operation."
+    },
+    "overview": {
+      "eyebrow": "Product portfolio",
+      "title": "Five platforms, one engineering standard",
+      "description": "KEREYA, PASSBI, AFRIASSESS, JOKO AI and AMANET are products deployed in the field. Our custom solutions extend these building blocks to address specific needs.",
+      "jumpTo": "Jump to solution"
+    },
+    "sections": {
+      "problem": "The problem",
+      "value": "Our answer",
+      "innovation": "What makes us unique",
+      "impact": "Daily impact",
+      "stack": "Technology stack",
+      "users": "Who it's for",
+      "markets": "Initial markets",
+      "approach": "Our approach",
+      "domains": "Focus areas"
+    },
+    "badges": {
+      "status": "Status"
     },
     "items": {
       "kereya": {
         "name": "KEREYA",
-        "tagline": "Digital health platform",
-        "body": "KEREYA connects patients, healthcare professionals and facilities to improve access to care and continuity of medical journeys."
+        "tagline": "Maternal, neonatal and child health",
+        "body": "KEREYA tackles the three delays in maternal and child health — from the decision to seek care to hospital referral — in rural health districts across Senegal.",
+        "pitch": "A digital platform to reduce the three delays in maternal, neonatal and child health — from the decision to seek care to hospital referral, designed for rural health districts in Senegal.",
+        "status": "Pilot project — Kolda medical region",
+        "problem": [
+          "Senegal records a high maternal mortality rate (315 per 100,000 births), particularly critical in rural areas such as Fouladou (Kolda medical region).",
+          "Existing systems like DHIS2 do not digitize clinical registers: they only transmit aggregated reports to the Ministry, with no individual digital tracking of patients.",
+          "Pregnant women and children are monitored through paper registers and physical health booklets, exposed to loss, illegibility and care continuity gaps between levels of care.",
+          "Referrals between health posts, districts and hospitals are handled informally, with no traceability or feedback (counter-referral) to the originating facility."
+        ],
+        "value": [
+          {
+            "title": "Integrated three-delays platform",
+            "body": "11 sub-modules covering the decision to seek care, clinical management (ANC, PNC, EPI, family planning) and timestamped digital referral between care levels.",
+            "featured": true
+          },
+          {
+            "title": "Offline-first architecture",
+            "body": "Works without stable connectivity, with deferred synchronization adapted to remote rural areas and seasonal rainy-period constraints."
+          },
+          {
+            "title": "Community mobilization in the field",
+            "body": "Dedicated tools for community health workers (Bajenu Gox, Community Health Agents) for grassroots awareness-raising and Universal Health Coverage enrollment."
+          },
+          {
+            "title": "Built-in scientific evaluation",
+            "body": "A matched Difference-in-Differences quasi-experimental design, developed with an independent evaluation firm to rigorously measure project impact."
+          }
+        ],
+        "impact": [
+          {
+            "persona": "Health worker",
+            "metric": "Continuous patient record",
+            "body": "ANC, delivery and postnatal care united in a single digital record, from first to last contact."
+          },
+          {
+            "persona": "Pregnant woman",
+            "metric": "Appointment reminders",
+            "body": "Automatic alerts for antenatal consultations and child vaccinations."
+          },
+          {
+            "persona": "District Chief Medical Officer",
+            "metric": "Data-driven management",
+            "body": "Real-time indicator dashboard, interoperable with the national DHIS2."
+          },
+          {
+            "persona": "Medical region",
+            "metric": "Traced referral",
+            "body": "Every transfer between facilities is timestamped, notified and documented through to effective care delivery."
+          }
+        ],
+        "stack": [
+          "Go",
+          "PostgreSQL",
+          "Next.js (PWA)",
+          "Dexie (IndexedDB)",
+          "Keycloak",
+          "DHIS2 API",
+          "Docker",
+          "ML-ready Architecture"
+        ],
+        "users": [
+          "Health districts",
+          "Medical regions",
+          "Ministry of Health",
+          "International donors (FID, AFD)",
+          "Maternal health NGOs"
+        ],
+        "discover": "Explore KEREYA in detail"
       },
       "passbi": {
-        "name": "PASSBI",
-        "tagline": "Smart mobility",
-        "body": "PASSBI optimizes public transport through real-time data and route planning."
+        "name": "PassBi",
+        "tagline": "Multimodal urban mobility",
+        "body": "PassBi connects BRT, TER, Dem Dikk and AFTU in a single app — NFC ticketing, smart routing and real-time mobility data.",
+        "pitch": "The SaaS multimodal urban-mobility platform that connects BRT, TER, Dem Dikk and AFTU in a single app — NFC ticketing, intelligent trip planning and real-time mobility data.",
+        "status": "Rolling out — Dakar",
+        "problem": [
+          "Dakar's public transport networks (BRT SunuBRT, TER, Dem Dikk, AFTU) operate in silos, with no shared ticketing or trip planning.",
+          "Riders juggle multiple tickets, multiple queues and have no visibility on multimodal transfers.",
+          "Transport operators have no unified dashboard to steer ridership, revenue and line performance.",
+          "As the Dakar 2026 Youth Olympic Games approach, no unified digital solution exists to guide visitors, athletes and delegations across the network."
+        ],
+        "value": [
+          {
+            "title": "Unified multimodal platform",
+            "body": "RAPTOR routing engine on GTFS data, optimized time-and-transfer routing across the full BRT / TER / Dem Dikk / AFTU network."
+          },
+          {
+            "title": "Integrated NFC ticketing",
+            "body": "292 AFTU buses already equipped with NFC validators — one medium to validate any trip, no paper ticket."
+          },
+          {
+            "title": "Wallet & mobile payments",
+            "body": "Top-up and payment via Wave, Orange Money (BCEAO framework)."
+          },
+          {
+            "title": "Mobility data & intelligence",
+            "body": "CO₂ dashboard per trip, real-time ridership data for operators and transport authorities."
+          }
+        ],
+        "impact": [
+          {
+            "persona": "Rider",
+            "metric": "One pass, whole network",
+            "body": "No more multiple tickets: a multimodal trip planned and paid in a single app."
+          },
+          {
+            "persona": "Transport operator",
+            "metric": "Real-time steering",
+            "body": "Ridership, revenue and line-performance dashboard, always on."
+          },
+          {
+            "persona": "Institutions (CETUD, YOGOC)",
+            "metric": "Ready for YOG 2026",
+            "body": "Official partnership with Dem Dikk for Youth Olympic Games transport — visibility and data governance for authorities."
+          },
+          {
+            "persona": "Investors & partners",
+            "metric": "WAEMU-scalable",
+            "body": "Built in Dakar, designed for regional replication: Côte d'Ivoire, Benin, Togo, Guinea."
+          }
+        ],
+        "stack": [
+          "Go (RAPTOR)",
+          "NestJS",
+          "PostgreSQL",
+          "pgvector",
+          "Redis",
+          "MongoDB",
+          "Ionic Angular",
+          "Leaflet",
+          "CartoDB",
+          "Docker"
+        ],
+        "users": [
+          "Transport operators",
+          "Public institutions (CETUD, YOGOC)",
+          "Investors",
+          "General public / riders",
+          "Companies (Employer Mobility Plan)",
+          "Schools (Smart School Bus)"
+        ],
+        "discover": "Explore PassBi in detail"
       },
       "afriassess": {
         "name": "AFRIASSESS",
-        "tagline": "Environmental assessments",
-        "body": "AFRIASSESS structures, centralizes and streamlines the evaluation of environmental and social project impacts."
+        "tagline": "Environmental & social studies",
+        "body": "AFRIASSESS structures, centralizes and streamlines the evaluation of environmental and social project impacts.",
+        "pitch": "The entire impact-study chain — RAP, ESIA, ESMP — industrialized on a single platform aligned with donor requirements. From field data to final report in one day instead of three weeks.",
+        "status": "3 consulting firms — Senegal and Guinea",
+        "problem": [
+          "Field data arrives in incompatible silos (KoboCollect CSV, KMZ / QGIS, commission Excel registers) — reconciling it cleanly takes days.",
+          "Report drafting is time-consuming: up to three weeks for a standard RAP.",
+          "Compensation calculations in Excel are not auditable, generating disputes with affected people.",
+          "Every donor (World Bank, AFD, AfDB, IFC) imposes its own formats and standards, forcing each deliverable to be reworked."
+        ],
+        "value": [
+          {
+            "title": "Intelligent Harmonizer",
+            "body": "Multi-source import (CSV, XLSX, KMZ, GeoJSON) and automated merging of socio-economic and cartographic data in 20 minutes instead of days."
+          },
+          {
+            "title": "AI report, donor-compliant",
+            "body": "AI-assisted generation of a structured report — 10 sections for a RAP — with systematic citation of sources (standards, scales, legislation)."
+          },
+          {
+            "title": "Mapping & GIS",
+            "body": "Site localization, environmental datasets, risk exposure and identification of sensitive areas."
+          },
+          {
+            "title": "Compliance & traceability",
+            "body": "Templates aligned with World Bank (ESS 5 / OP 4.12), IFC (PS5), AfDB and AFD — with a traceable validation circuit between consultant, commission and donor."
+          }
+        ],
+        "innovation": [
+          {
+            "title": "4-layer matching engine",
+            "body": "Deterministic normalization, multi-criteria scoring (Jaro-Winkler, Levenshtein), AI pattern detection that learns from corrections, and assisted human resolution. Reconciles incompatible identifiers across parties."
+          },
+          {
+            "title": "Africa-contextualized RAG",
+            "body": "A corpus of standards, official scales and legislation per country, human-validated before indexing — never fed raw from the internet. Every report stays anchored in the real legal framework of the country concerned."
+          },
+          {
+            "title": "Traceable AI report",
+            "body": "Every generated section cites its sources — version of the scale, effective date, official reference. Legal traceability is preserved for donor due diligence."
+          }
+        ],
+        "impact": [
+          {
+            "persona": "Consultant",
+            "metric": "3 wks → 1 day",
+            "body": "Compliant templates and automated harmonization radically accelerate deliverable production."
+          },
+          {
+            "persona": "Ministry",
+            "metric": "Online review",
+            "body": "Files are reviewed, annotated and validated in a centralized workspace."
+          },
+          {
+            "persona": "Donor",
+            "metric": "One-click due diligence",
+            "body": "Direct access to history, versions and compliance evidence — with cited sources."
+          },
+          {
+            "persona": "Public",
+            "metric": "Open consultation",
+            "body": "Studies are accessible to the public, with a structured feedback space."
+          }
+        ],
+        "stack": [
+          "Go",
+          "React / TypeScript",
+          "PostgreSQL 16",
+          "PostGIS",
+          "pgvector",
+          "AI — Claude + RAG",
+          "MapLibre GL",
+          "Cloudflare R2",
+          "JWT + RLS multi-tenant",
+          "Flutter (Phase 2)"
+        ],
+        "users": [
+          "Consulting firms",
+          "Ministries of Environment",
+          "National agencies",
+          "International donors",
+          "Civil society"
+        ],
+        "markets": [
+          "Senegal",
+          "Guinea",
+          "Côte d'Ivoire",
+          "Mali",
+          "Cameroon"
+        ],
+        "discover": "Explore AFRIASSESS in detail"
+      },
+      "amanet": {
+        "name": "AMANET",
+        "tagline": "Logistics ERP & customs transit",
+        "body": "AMANET industrializes the operational chain of freight-forwarding agencies — quotes, fleet, customs, invoicing and HR — on a single SYSCOHADA-compliant platform.",
+        "pitch": "The full operational chain of logistics transit — quotes, fleet, customs, invoicing, HR — industrialized on a single SYSCOHADA-compliant platform.",
+        "status": "In development",
+        "problem": [
+          "Manual operations via Excel and email, with no real-time visibility on vehicles or drivers.",
+          "Manual customs clearance: two to five days of waiting, paper files that can't be processed.",
+          "Paper invoicing, payment delays, and a 15–20% error rate on files.",
+          "Payroll, HR and customer data managed manually, without structured tracking or traceability."
+        ],
+        "value": [
+          {
+            "title": "11-module ERP platform",
+            "body": "Quotes, fleet, customs, invoicing, HR wired together — each datum entered once flows through the whole system.",
+            "featured": true
+          },
+          {
+            "title": "Real-time fleet tracking",
+            "body": "Geolocation of 25–35 vehicles and 30–40 drivers, fuel and maintenance tracking."
+          },
+          {
+            "title": "Digitized customs clearance",
+            "body": "ASYCUDA++ workflow with ML-suggested HS code (80% accuracy) and automated RFI handling."
+          },
+          {
+            "title": "SYSCOHADA compliance",
+            "body": "Automated invoicing, accounting and Senegalese payroll (IPRES, CSS, IRPP, 18% VAT) aligned with local standards."
+          }
+        ],
+        "impact": [
+          {
+            "persona": "Operations",
+            "metric": "−80% processing time",
+            "body": "A file moves from 30–40 days to 5–7 days."
+          },
+          {
+            "persona": "Customs",
+            "metric": "Clearance in 6–12 h",
+            "body": "Versus two to five days on the manual procedure."
+          },
+          {
+            "persona": "Finance",
+            "metric": "Automated invoicing",
+            "body": "Generated on delivery confirmation, errors below 2%."
+          },
+          {
+            "persona": "HR",
+            "metric": "Payroll in under 2 h",
+            "body": "Versus two to three days of manual processing previously."
+          }
+        ],
+        "stack": [
+          "Go (Golang)",
+          "Next.js / React",
+          "React Native",
+          "PostgreSQL / Supabase",
+          "WebSocket + Redis",
+          "Render",
+          "JWT + MFA"
+        ],
+        "users": [
+          "Transit agencies",
+          "Transport companies",
+          "Customs offices",
+          "Import-export SMEs",
+          "West-Africa logistics donors & partners"
+        ],
+        "discover": "Explore AMANET in detail"
       },
       "custom": {
         "name": "Custom Solutions",
-        "tagline": "Digital platform development",
-        "body": "We design custom digital platforms to address our partners' specific challenges, from scoping to deployment."
+        "tagline": "Dedicated digital platforms",
+        "body": "We design custom digital platforms to address our partners' specific challenges, from scoping to deployment.",
+        "pitch": "When no existing building block fits, we design the platform that matches your context exactly — from the first line of code to production run.",
+        "status": "On demand",
+        "approach": [
+          {
+            "step": "01",
+            "title": "Discovery",
+            "body": "Workshops with your business teams to frame needs, constraints and success metrics."
+          },
+          {
+            "step": "02",
+            "title": "Product design",
+            "body": "Interactive prototypes, user testing and scope arbitration before any code."
+          },
+          {
+            "step": "03",
+            "title": "Engineering",
+            "body": "Iterative development, scalable architecture, automated tests and continuous integration."
+          },
+          {
+            "step": "04",
+            "title": "Deployment",
+            "body": "Controlled production rollout, team training and skills transfer."
+          },
+          {
+            "step": "05",
+            "title": "Run & evolve",
+            "body": "Support, monitoring, improvement cycles and long-term roadmap."
+          }
+        ],
+        "domains": [
+          "Public health",
+          "Education",
+          "Agriculture",
+          "Governance & civil registry",
+          "Finance & inclusion",
+          "Energy & climate",
+          "Institutional data & AI"
+        ],
+        "stack": [
+          "Next.js",
+          "NestJS",
+          "Go",
+          "React Native",
+          "PostgreSQL",
+          "Supabase",
+          "Directus",
+          "Cloudflare",
+          "Docker"
+        ],
+        "discover": "Discuss a project"
+      },
+      "jokoai": {
+        "name": "JOKO AI",
+        "tagline": "OS for African startups",
+        "body": "JOKO AI is the operating system for African startups — activatable modules, AI-powered, calibrated for local reality: OHADA accounting, CFA francs, mobile money.",
+        "pitch": "The operating system for African startups — from idea to IPO. Activatable modules, AI-powered, calibrated for local reality: OHADA accounting, CFA francs, mobile money.",
+        "status": "In development",
+        "problem": [
+          "African founders juggle dozens of scattered tools (Excel, WhatsApp, PDF) with no consolidated view of their startup.",
+          "Western SaaS tools ignore local reality: OHADA chart of accounts, CFA francs (XOF), mobile money (Wave, Orange Money).",
+          "Structured support — finance, runway, pitch, governance — remains reserved for an elite already connected to incubators and VCs.",
+          "Without financial and operational steering, most startups shut down before proving their model."
+        ],
+        "value": [
+          {
+            "title": "Activatable modules",
+            "body": "Invoicing, OHADA Accounting, Treasury & Runway, Roadmap, Pitch Studio — activate the building blocks you need, Odoo-style."
+          },
+          {
+            "title": "AI agents by role",
+            "body": "Co-Founder AI, CFO AI, CTO AI and YC Senior Coach analyze your real data and advise you continuously.",
+            "featured": true
+          },
+          {
+            "title": "Calibrated for Africa",
+            "body": "Native OHADA chart of accounts, XOF, mobile money integration, interface optimized for limited bandwidth."
+          },
+          {
+            "title": "Event-driven architecture",
+            "body": "Multi-tenant and multi-venture: data entered once feeds the entire system, every module communicates with the others."
+          }
+        ],
+        "innovation": [
+          {
+            "title": "Centralized AI gateway",
+            "body": "All LLM calls go through an AiGateway: semantic cache, controlled costs, outputs validated by Zod."
+          },
+          {
+            "title": "Specialized agents",
+            "body": "Versioned system prompts, explicitly declared tools — one agent per hat: Co-Founder, CFO, CTO, YC Coach."
+          },
+          {
+            "title": "Long-term memory",
+            "body": "pgvector preserves the context of each venture for advice that sharpens over time."
+          }
+        ],
+        "impact": [
+          {
+            "persona": "Founder",
+            "metric": "Real-time runway",
+            "body": "Treasury, burn rate and survival alerts automatically computed from your financial data."
+          },
+          {
+            "persona": "Founder",
+            "metric": "Pitch in 2 minutes",
+            "body": "An investor pitch deck generated from your real numbers, ready to present and exportable."
+          },
+          {
+            "persona": "Incubator",
+            "metric": "Full portfolio, 1 view",
+            "body": "The health of every incubated startup tracked from a single dashboard."
+          },
+          {
+            "persona": "Investor",
+            "metric": "Qualified deal flow",
+            "body": "Structured startups with reliable metrics and an Investor Readiness Score."
+          }
+        ],
+        "stack": [
+          "NestJS",
+          "Next.js 15",
+          "TypeScript",
+          "Supabase",
+          "pgvector",
+          "Better Auth",
+          "BullMQ",
+          "LangChain.js",
+          "Claude Sonnet",
+          "React Native"
+        ],
+        "users": [
+          "Founders & startups",
+          "Incubators & accelerators",
+          "Investors & VCs",
+          "WAEMU ecosystem"
+        ],
+        "discover": "Explore JOKO AI in detail"
       }
     },
-    "cta": "Learn more"
+    "cta": "Learn more",
+    "finalCta": {
+      "eyebrow": "Have a project?",
+      "title": "Let's make your challenge the next impact platform.",
+      "subtitle": "Our teams support institutions, donors and private operators — from scoping to run.",
+      "primary": "Request a demo",
+      "secondary": "Get in touch"
+    }
+  },
+  "SolutionPage": {
+    "back": "All solutions",
+    "context": "The context",
+    "features": "What {name} does",
+    "showcase": "In action",
+    "impact": "On the ground",
+    "stack": "Built with",
+    "users": "For",
+    "markets": "Initial markets",
+    "innovation": "What makes us unique",
+    "cta": {
+      "title": "Deploy {name} in your organization",
+      "subtitle": "Our team supports you from scoping to deployment.",
+      "primary": "Request a demo",
+      "secondary": "Get in touch"
+    },
+    "keyMetrics": {
+      "kereya": { "value": "315", "label": "maternal deaths / 100,000 births", "context": "in Senegal — critical in rural areas" },
+      "passbi": { "value": "292", "label": "AFTU buses equipped with NFC", "context": "one app for the entire network" },
+      "afriassess": { "value": "3 wks", "label": "reduced to 1 day", "context": "for a standard RAP report" },
+      "jokoai": { "value": "80%", "label": "of African startups", "context": "fail due to lack of structured management" },
+      "amanet": { "value": "−80%", "label": "processing time", "context": "from 30-40 days to 5-7 days" }
+    }
+  },
+  "BlogPage": {
+    "meta": {
+      "title": "News & Insights",
+      "description": "Discover our latest publications on Africa's digital transformation: AI, digital health, FinTech, GovTech and more."
+    },
+    "hero": {
+      "eyebrow": "News & Insights",
+      "title": "Publications and tech watch",
+      "description": "Analysis, lessons learned and insights on the technologies transforming the continent."
+    },
+    "featured": "Featured",
+    "readArticle": "Read article",
+    "views": "views",
+    "search": "Search articles...",
+    "allCategories": "Categories",
+    "allLevels": "Levels",
+    "filters": "Filters",
+    "clearFilters": "Clear",
+    "noResults": "No articles match your search.",
+    "share": "Share",
+    "relatedArticles": "Related articles",
+    "prevArticle": "Previous article",
+    "nextArticle": "Next article",
+    "breadcrumb": {
+      "home": "Home",
+      "news": "News"
+    },
+    "levels": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "expert": "Expert"
+    },
+    "categories": {
+      "ai": "Artificial Intelligence",
+      "ehealth": "Digital Health",
+      "fintech": "FinTech",
+      "govtech": "GovTech",
+      "agritech": "AgriTech",
+      "education": "Education",
+      "logistics": "Logistics",
+      "smart-cities": "Smart Cities",
+      "cybersecurity": "Cybersecurity",
+      "cloud": "Cloud Computing",
+      "data-analytics": "Data & Analytics",
+      "digital-transformation": "Digital Transformation",
+      "web-development": "Web Development",
+      "mobile": "Mobile",
+      "devops": "DevOps",
+      "open-source": "Open Source",
+      "innovation": "Innovation",
+      "african-startups": "African Startups",
+      "success-stories": "Success Stories",
+      "case-studies": "Case Studies",
+      "events": "Events",
+      "tutorials": "Tutorials",
+      "tech-watch": "Tech Watch"
+    }
   },
   "ContactPage": {
     "hero": {
@@ -298,24 +1151,31 @@
       "organizationLabel": "Organization",
       "organizationPlaceholder": "Your organization's name",
       "organizationError": "Please enter your organization.",
+      "subjectLabel": "What is this about?",
+      "subjects": ["New project", "Partnership", "Demo request", "Technical support", "Other"],
       "messageLabel": "Message",
       "messagePlaceholder": "Describe your project or request...",
       "messageError": "Your message must be at least 10 characters long.",
       "submit": "Send message",
       "submitting": "Sending...",
       "privacyNote": "Your data is handled confidentially and never shared with third parties.",
-      "successTitle": "Message sent",
-      "successBody": "Thank you, we'll get back to you within 48 business hours.",
+      "successTitle": "Message sent!",
+      "successBody": "Thank you for reaching out. Our team will get back to you within 48 business hours.",
+      "successAction": "Send another message",
       "errorBody": "Something went wrong. Please try again or email us directly."
     },
     "info": {
-      "title": "Information",
-      "addressLabel": "Address",
-      "address": "[CLIENT-FILL: headquarters address]",
+      "title": "Other ways to reach us",
+      "addressLabel": "Headquarters",
+      "address": "Dakar, Senegal",
       "emailLabel2": "Email",
-      "email": "[CLIENT-FILL: contact email]",
+      "email": "contact@impactsolution.sn",
       "phoneLabel": "Phone",
-      "phone": "[CLIENT-FILL: phone number]"
+      "phone": "+221 78 450 0058",
+      "responseTitle": "Response time",
+      "responseBody": "Our team typically responds within 24 to 48 business hours.",
+      "availabilityTitle": "Availability",
+      "availabilityBody": "Monday — Friday, 8am — 5pm (GMT)"
     }
   }
 }

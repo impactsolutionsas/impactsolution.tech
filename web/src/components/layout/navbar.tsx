@@ -47,8 +47,8 @@ export async function Navbar() {
           <Image
             src="/brand/logo-light.png"
             alt="Impact Solutions"
-            width={168}
-            height={40}
+            width={250}
+            height={60}
             priority
             className="h-8 w-auto sm:h-9"
           />
@@ -126,28 +126,13 @@ export async function Navbar() {
                   </div>
                 </NavigationMenuContent>
               </NavigationMenuItem>
-              <NavigationMenuItem>
-                <Link
-                  href="/case-studies"
-                  className="rounded-md px-3 py-2 text-sm font-medium text-foreground/70 transition-colors hover:bg-muted hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
-                >
-                  {t("caseStudies")}
-                </Link>
-              </NavigationMenuItem>
+              
               <NavigationMenuItem>
                 <Link
                   href="/news"
                   className="rounded-md px-3 py-2 text-sm font-medium text-foreground/70 transition-colors hover:bg-muted hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
                 >
                   {t("news")}
-                </Link>
-              </NavigationMenuItem>
-              <NavigationMenuItem>
-                <Link
-                  href="/careers"
-                  className="rounded-md px-3 py-2 text-sm font-medium text-foreground/70 transition-colors hover:bg-muted hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
-                >
-                  {t("careers")}
                 </Link>
               </NavigationMenuItem>
             </NavigationMenuList>

@@ -1,0 +1,532 @@
+{
+  "Navigation": {
+    "home": "Accueil",
+    "about": "À propos",
+    "expertise": "Expertises",
+    "solutions": "Solutions",
+    "caseStudies": "Réalisations",
+    "innovation": "Innovation",
+    "resources": "Ressources",
+    "news": "Actualités",
+    "careers": "Carrières",
+    "contact": "Contact",
+    "cta": "Demander une démonstration"
+  },
+  "Footer": {
+    "tagline": "Engineering Digital Impact",
+    "description": "Impact Solutions conçoit et déploie des solutions numériques à fort impact pour l'Afrique.",
+    "navigationTitle": "Navigation",
+    "expertiseTitle": "Expertises",
+    "solutionsTitle": "Solutions",
+    "resourcesTitle": "Ressources",
+    "legalTitle": "Légal",
+    "legalPrivacy": "Politique de confidentialité",
+    "legalTerms": "Mentions légales",
+    "newsletterTitle": "Restez informé",
+    "newsletterDescription": "Recevez nos actualités et publications techniques.",
+    "newsletterPlaceholder": "Votre adresse email",
+    "newsletterCta": "S'abonner",
+    "copyright": "© {year} Impact Solutions SAS. Tous droits réservés."
+  },
+  "HomePage": {
+    "hero": {
+      "title": "Nous construisons l'infrastructure numérique qui fait <accent>avancer l'Afrique</accent>.",
+      "subtitle": "Impact Solutions conçoit, développe et déploie des plateformes numériques à fort impact pour les gouvernements, les institutions internationales et les entreprises qui transforment le continent.",
+      "primaryCta": "Découvrir nos solutions",
+      "secondaryCta": "Demander une démonstration"
+    },
+    "mission": {
+      "eyebrow": "Notre mission",
+      "paragraph1": "Nous sommes une entreprise d'ingénierie numérique panafricaine. Notre mission : accélérer la transformation numérique de l'Afrique à travers des solutions technologiques qui répondent aux défis réels du développement.",
+      "paragraph2": "De la santé numérique à la gouvernance digitale, en passant par l'intelligence artificielle et les systèmes d'information, nous concevons des plateformes robustes, interopérables et pensées pour l'échelle.",
+      "paragraph3": "Nos produits — KEREYA, PASSBI, AFRIASSESS — démontrent cette capacité : des solutions déployées sur le terrain, au service des populations et des institutions qui les servent."
+    },
+    "expertiseSection": {
+      "eyebrow": "Nos expertises",
+      "title": "Une ingénierie complète, de la donnée à l'infrastructure",
+      "viewAll": "Voir toutes les expertises"
+    },
+    "solutionsSection": {
+      "eyebrow": "Nos produits",
+      "title": "Des solutions numériques conçues pour l'impact",
+      "description": "Nous développons des plateformes qui répondent aux défis des secteurs clés et améliorent durablement la vie des populations.",
+      "viewAll": "Découvrir toutes nos solutions"
+    },
+    "impactSection": {
+      "eyebrow": "Notre impact",
+      "title": "Des résultats mesurables",
+      "stat1Value": "50+",
+      "stat1Label": "Projets réalisés",
+      "stat2Value": "3+",
+      "stat2Label": "Pays d'intervention",
+      "stat3Value": "10+",
+      "stat3Label": "Partenaires & institutions",
+      "stat4Value": "1M+",
+      "stat4Label": "Personnes impactées"
+    },
+    "newsSection": {
+      "eyebrow": "Actualités",
+      "title": "Dernières publications",
+      "viewAll": "Voir toutes les actualités",
+      "comingSoon": "Bientôt disponible"
+    },
+    "cta": {
+      "eyebrow": "Prêt à démarrer ?",
+      "title": "Parlons de votre prochain projet numérique.",
+      "subtitle": "Institutions, bailleurs, entreprises : notre équipe vous accompagne du cadrage au déploiement.",
+      "button": "Demander une démonstration",
+      "secondaryButton": "Nous contacter"
+    }
+  },
+  "AboutPage": {
+    "hero": {
+      "eyebrow": "À propos",
+      "title": "Une ingénierie numérique pensée pour l'Afrique"
+    },
+    "history": {
+      "title": "Notre histoire",
+      "body": "Impact Solutions est née d'une conviction : l'Afrique n'a pas besoin de solutions importées, mais d'une ingénierie numérique pensée pour ses propres réalités. [CLIENT-FILL: année de création, jalons clés, pays d'implantation]."
+    },
+    "mission": {
+      "title": "Mission",
+      "body": "Concevoir des solutions numériques qui améliorent durablement les services essentiels en Afrique."
+    },
+    "vision": {
+      "title": "Vision",
+      "body": "Devenir la référence panafricaine de l'ingénierie numérique à impact, reconnue par les institutions, les bailleurs et les partenaires industriels."
+    },
+    "values": {
+      "title": "Nos valeurs",
+      "innovation": {
+        "title": "Innovation",
+        "body": "Nous explorons continuellement de nouvelles approches technologiques pour résoudre des problèmes complexes."
+      },
+      "excellence": {
+        "title": "Excellence",
+        "body": "Nous visons la rigueur technique et la qualité à chaque étape, du cadrage au déploiement."
+      },
+      "impact": {
+        "title": "Impact",
+        "body": "Chaque solution que nous construisons doit produire un effet mesurable sur le terrain."
+      },
+      "reliability": {
+        "title": "Fiabilité",
+        "body": "Nos plateformes sont conçues pour fonctionner de manière stable, sécurisée et durable."
+      },
+      "openness": {
+        "title": "Ouverture",
+        "body": "Nous privilégions les standards ouverts et l'interopérabilité plutôt que les silos technologiques."
+      },
+      "collaboration": {
+        "title": "Collaboration",
+        "body": "Nous travaillons aux côtés de nos partenaires, pas seulement pour eux."
+      },
+      "ethics": {
+        "title": "Éthique",
+        "body": "Nous plaçons la protection des données et l'usage responsable de la technologie au cœur de nos choix."
+      }
+    },
+    "approach": {
+      "title": "Notre approche",
+      "body": "Nous combinons expertise technique, compréhension du terrain et rigueur méthodologique pour livrer des solutions qui durent au-delà du déploiement initial."
+    },
+    "team": {
+      "title": "Notre équipe",
+      "body": "[CLIENT-FILL: présentation de l'équipe dirigeante et des profils clés]"
+    }
+  },
+  "ExpertisesPage": {
+    "hero": {
+      "eyebrow": "Expertises",
+      "title": "Une ingénierie complète, de la stratégie au déploiement"
+    },
+    "items": {
+      "digitalTransformation": {
+        "title": "Transformation digitale",
+        "body": "Nous accompagnons institutions et entreprises dans la refonte numérique de leurs processus et services.",
+        "capabilities": [
+          "Audit des processus existants et identification des leviers de digitalisation",
+          "Accompagnement au changement auprès des équipes métier",
+          "Refonte de services publics et privés en parcours numériques",
+          "Pilotage de la mise en œuvre jusqu'à l'adoption"
+        ]
+      },
+      "softwareDevelopment": {
+        "title": "Développement logiciel",
+        "body": "Applications web et mobiles sur mesure, robustes, évolutives et conçues pour l'échelle.",
+        "capabilities": [
+          "Applications web et mobiles sur mesure",
+          "Architecture évolutive pensée pour la montée en charge",
+          "Tests automatisés et intégration continue",
+          "Maintenance et évolution long terme"
+        ]
+      },
+      "cloudArchitecture": {
+        "title": "Architecture Cloud",
+        "body": "Infrastructures cloud sécurisées, résilientes et optimisées pour la performance et les coûts.",
+        "capabilities": [
+          "Conception d'infrastructures cloud et hybrides",
+          "Sécurisation des environnements de production",
+          "Optimisation des coûts d'hébergement",
+          "Automatisation du déploiement (CI/CD, infrastructure as code)"
+        ]
+      },
+      "mobileApps": {
+        "title": "Applications mobiles",
+        "body": "Applications natives et cross-platform pensées pour l'usage réel, y compris en connectivité limitée.",
+        "capabilities": [
+          "Applications natives iOS/Android et cross-platform",
+          "Fonctionnement hors-ligne et synchronisation différée",
+          "Optimisation pour connectivité limitée",
+          "Design adapté aux usages terrain"
+        ]
+      },
+      "gis": {
+        "title": "SIG",
+        "body": "Systèmes d'information géographique pour cartographier, analyser et piloter les projets de développement.",
+        "capabilities": [
+          "Cartographie et visualisation de données géospatiales",
+          "Suivi et évaluation de projets territoriaux",
+          "Intégration de données satellite et terrain",
+          "Outils d'aide à la décision géolocalisés"
+        ]
+      },
+      "dataEngineering": {
+        "title": "Data Engineering",
+        "body": "Pipelines de données fiables pour transformer l'information brute en décisions éclairées.",
+        "capabilities": [
+          "Conception de pipelines de données robustes",
+          "Consolidation de sources hétérogènes",
+          "Qualité, gouvernance et traçabilité des données",
+          "Tableaux de bord et reporting automatisé"
+        ]
+      },
+      "ai": {
+        "title": "Intelligence artificielle",
+        "body": "Modèles et algorithmes appliqués à la santé, la gouvernance et l'analyse prédictive.",
+        "capabilities": [
+          "Modèles prédictifs appliqués aux secteurs sociaux",
+          "Traitement du langage naturel et automatisation",
+          "Aide à la décision pour la santé et la gouvernance",
+          "Déploiement responsable et explicable des modèles"
+        ]
+      },
+      "interoperability": {
+        "title": "Interopérabilité",
+        "body": "Intégration de systèmes hétérogènes selon les standards internationaux (FHIR, GTFS, API ouvertes).",
+        "capabilities": [
+          "Intégration de systèmes hétérogènes via API",
+          "Conformité aux standards internationaux (FHIR, GTFS...)",
+          "Échanges de données sécurisés entre institutions",
+          "Cartographie et gouvernance des flux d'intégration"
+        ]
+      },
+      "uxui": {
+        "title": "UX/UI",
+        "body": "Interfaces claires et accessibles, pensées pour des utilisateurs aux réalités très diverses.",
+        "capabilities": [
+          "Recherche utilisateur et tests d'usage terrain",
+          "Design d'interfaces accessibles (WCAG)",
+          "Prototypage et validation itérative",
+          "Design system cohérent multi-plateforme"
+        ]
+      },
+      "cybersecurity": {
+        "title": "Cybersécurité",
+        "body": "Protection des données sensibles et conformité aux exigences des secteurs régulés.",
+        "capabilities": [
+          "Audit de sécurité et tests d'intrusion",
+          "Protection des données sensibles et conformité réglementaire",
+          "Mise en place de politiques d'accès et de chiffrement",
+          "Surveillance et réponse aux incidents"
+        ]
+      },
+      "consulting": {
+        "title": "Conseil stratégique",
+        "body": "Accompagnement stratégique pour cadrer, prioriser et réussir les projets numériques complexes.",
+        "capabilities": [
+          "Cadrage stratégique de projets numériques",
+          "Priorisation et arbitrage technologique",
+          "Accompagnement à la gouvernance de projet",
+          "Transfert de compétences aux équipes internes"
+        ]
+      }
+    }
+  },
+  "SolutionsPage": {
+    "hero": {
+      "eyebrow": "Solutions",
+      "title": "Des plateformes conçues pour l'impact, éprouvées sur le terrain",
+      "description": "Nos produits accompagnent ministères, agences et bailleurs qui déploient des services essentiels à grande échelle. Chaque solution est architecturée pour l'interopérabilité, la conformité et l'exploitation continue."
+    },
+    "overview": {
+      "eyebrow": "Portefeuille produits",
+      "title": "Quatre plateformes, un même standard d'ingénierie",
+      "description": "KEREYA, PASSBI et AFRIASSESS sont des produits déployés sur le terrain. Nos solutions sur mesure prolongent ces briques pour répondre à des besoins spécifiques.",
+      "jumpTo": "Aller à la solution"
+    },
+    "sections": {
+      "problem": "Le problème",
+      "value": "Notre réponse",
+      "impact": "Impact au quotidien",
+      "stack": "Stack technique",
+      "users": "Pour qui",
+      "approach": "Notre approche",
+      "domains": "Domaines d'intervention"
+    },
+    "badges": {
+      "status": "Statut"
+    },
+    "items": {
+      "kereya": {
+        "name": "KEREYA",
+        "tagline": "Plateforme de santé numérique",
+        "body": "KEREYA connecte patients, professionnels de santé et établissements pour améliorer l'accès aux soins et la continuité des parcours médicaux.",
+        "pitch": "Une plateforme unifiée pour la santé maternelle et infantile — du dossier patient à la remontée des indicateurs OMS.",
+        "status": "En production",
+        "problem": [
+          "Le suivi mère–enfant reste fragmenté entre carnets papier, registres locaux et systèmes cloisonnés.",
+          "Les données de vaccination et de suivi prénatal ne remontent pas en temps réel aux ministères ni aux bailleurs.",
+          "Les ruptures de continuité entre visites prénatales, accouchement et post-natal augmentent la mortalité évitable.",
+          "Les rapports d'indicateurs OMD / ODD sont produits manuellement, sur des cycles de plusieurs mois."
+        ],
+        "value": [
+          {
+            "title": "Dossier mère–enfant unifié",
+            "body": "Un identifiant unique lie la mère et ses enfants, accessible en zone connectée comme hors ligne."
+          },
+          {
+            "title": "Alertes cliniques et rappels",
+            "body": "SMS et USSD pour rappels de rendez-vous prénataux, vaccination et alertes sur les grossesses à risque."
+          },
+          {
+            "title": "Tableau de bord national",
+            "body": "Visualisation en temps réel des indicateurs OMS / OMD par district, région et formation sanitaire."
+          },
+          {
+            "title": "Interopérabilité HL7 / FHIR",
+            "body": "Échanges normalisés avec DHIS2, systèmes hospitaliers et registres nationaux."
+          }
+        ],
+        "impact": [
+          {
+            "persona": "Sage-femme",
+            "metric": "−60% temps de saisie",
+            "body": "Une consultation clôturée en moins de 4 minutes, avec les mêmes formulaires que le carnet papier."
+          },
+          {
+            "persona": "Famille",
+            "metric": "+92% rappels reçus",
+            "body": "Chaque mère reçoit ses rappels de rendez-vous par SMS, dans sa langue."
+          },
+          {
+            "persona": "Ministère",
+            "metric": "Indicateurs J+1",
+            "body": "Les indicateurs de santé remontent en 24 h, contre trois mois auparavant."
+          },
+          {
+            "persona": "Bailleur",
+            "metric": "1M+ consultations",
+            "body": "Une base de preuve consolidée pour les rapports OMS, UNICEF et FID."
+          }
+        ],
+        "stack": ["React Native", "NestJS", "PostgreSQL", "HL7 / FHIR", "DHIS2", "Docker", "Cloudflare", "SMS / USSD"],
+        "users": ["Sages-femmes", "Médecins", "Directeurs sanitaires", "Ministères de la Santé", "Bailleurs (OMS, UNICEF, FID)"],
+        "discover": "Découvrir KEREYA en détail"
+      },
+      "passbi": {
+        "name": "PASSBI",
+        "tagline": "Mobilité urbaine intelligente",
+        "body": "PASSBI optimise le transport public grâce à la donnée en temps réel et à la planification d'itinéraires.",
+        "pitch": "La donnée temps réel qui rend lisible et pilotable le transport urbain africain — du bus formel au réseau informel.",
+        "status": "Pilote actif",
+        "problem": [
+          "Le transport urbain africain est majoritairement informel, non cartographié et sans données de fréquentation.",
+          "Les usagers n'ont aucune visibilité sur les itinéraires, les temps d'attente ni les correspondances.",
+          "Les opérateurs pilotent à l'intuition, sans données de charge, de recettes ni de fréquence.",
+          "Les collectivités n'ont pas de levier factuel pour planifier les lignes ni orienter les investissements."
+        ],
+        "value": [
+          {
+            "title": "Cartographie SIG temps réel",
+            "body": "Géolocalisation continue des véhicules, tracé des lignes et densité des flux."
+          },
+          {
+            "title": "Application usager",
+            "body": "Itinéraires, temps d'attente, correspondances multimodales et paiement mobile."
+          },
+          {
+            "title": "Portail opérateur",
+            "body": "Recettes centralisées, taux de charge, alertes techniques et pilotage de flotte."
+          },
+          {
+            "title": "Portail collectivité",
+            "body": "KPIs de mobilité, cartes de flux et outils d'aide à la décision territoriale."
+          }
+        ],
+        "impact": [
+          {
+            "persona": "Usager",
+            "metric": "−35% temps d'attente perçu",
+            "body": "Les temps de bus s'affichent en temps réel, les correspondances se planifient à l'avance."
+          },
+          {
+            "persona": "Opérateur",
+            "metric": "+18% recettes traçables",
+            "body": "Paiement mobile et remontée temps réel réduisent significativement les pertes de recettes."
+          },
+          {
+            "persona": "Collectivité",
+            "metric": "Cartes de flux J+0",
+            "body": "Les décideurs disposent d'une base factuelle pour arbitrer lignes et investissements."
+          },
+          {
+            "persona": "Bailleur",
+            "metric": "500K+ trajets/mois",
+            "body": "Un socle de données ouvertes pour instruire les projets de transport durable."
+          }
+        ],
+        "stack": ["Go", "PostGIS", "MapLibre GL", "React Native", "Kafka", "TimescaleDB", "Redis", "Mobile Money"],
+        "users": ["Usagers du transport", "Opérateurs de bus", "Autorités organisatrices", "Ministères de l'Urbanisme", "Bailleurs (AFD, BM, BAD)"],
+        "discover": "Découvrir PASSBI en détail"
+      },
+      "afriassess": {
+        "name": "AFRIASSESS",
+        "tagline": "Évaluations environnementales et sociales",
+        "body": "AFRIASSESS structure, centralise et fiabilise l'évaluation des impacts environnementaux et sociaux des projets.",
+        "pitch": "Toute la chaîne d'évaluation d'impact — EIES, EIS, PGES — industrialisée sur une plateforme unique conforme aux exigences des bailleurs.",
+        "status": "En déploiement",
+        "problem": [
+          "Les études d'impact environnemental et social sont produites en silos, sans base de connaissances partagée.",
+          "Les cycles d'instruction et de validation dépassent souvent douze mois, sur des dossiers papier ou PDF non exploitables.",
+          "Les exigences des bailleurs (BM, AFD, BAD, UE) obligent à retravailler chaque livrable dans des formats différents.",
+          "Les consultations publiques restent difficiles à organiser et à tracer, ce qui réduit la transparence."
+        ],
+        "value": [
+          {
+            "title": "Plateforme EIES / EIS / PGES",
+            "body": "Un espace unique pour concevoir, revoir et publier études, plans de gestion et rapports de suivi."
+          },
+          {
+            "title": "Workflow multi-parties",
+            "body": "Circuit de validation traçable entre bureau d'études, ministère et bailleur."
+          },
+          {
+            "title": "Cartographie des sites",
+            "body": "Localisation SIG, données environnementales, exposition aux risques et zones sensibles."
+          },
+          {
+            "title": "Conformité bailleurs",
+            "body": "Modèles alignés sur les exigences Banque mondiale, AFD, BAD et normes IFC."
+          }
+        ],
+        "impact": [
+          {
+            "persona": "Bureau d'études",
+            "metric": "−30% temps de rédaction",
+            "body": "Des modèles conformes accélèrent la production des livrables."
+          },
+          {
+            "persona": "Ministère",
+            "metric": "Instruction en ligne",
+            "body": "Les dossiers sont revus, annotés et validés dans un espace centralisé."
+          },
+          {
+            "persona": "Bailleur",
+            "metric": "Due diligence en un clic",
+            "body": "Accès direct à l'historique, aux versions et aux justificatifs de conformité."
+          },
+          {
+            "persona": "Public",
+            "metric": "Consultation ouverte",
+            "body": "Les études sont accessibles au public, avec un espace de retour structuré."
+          }
+        ],
+        "stack": ["Next.js", "PostgreSQL", "PostGIS", "Directus", "S3-compatible", "OpenLayers", "BPMN workflows", "OAuth 2.0"],
+        "users": ["Bureaux d'études", "Ministères de l'Environnement", "Agences nationales", "Bailleurs internationaux", "Société civile"],
+        "discover": "Découvrir AFRIASSESS en détail"
+      },
+      "custom": {
+        "name": "Solutions sur mesure",
+        "tagline": "Plateformes numériques dédiées",
+        "body": "Nous concevons des plateformes numériques sur mesure pour répondre aux défis spécifiques de nos partenaires, du cadrage au déploiement.",
+        "pitch": "Quand aucune brique existante ne suffit, nous concevons la plateforme qui correspond exactement à votre contexte — de la première ligne de code jusqu'au run.",
+        "status": "Sur demande",
+        "approach": [
+          {
+            "step": "01",
+            "title": "Cadrage",
+            "body": "Ateliers avec vos équipes métier pour formaliser besoins, contraintes et indicateurs de succès."
+          },
+          {
+            "step": "02",
+            "title": "Design produit",
+            "body": "Prototypes interactifs, tests utilisateurs et arbitrages de portée avant tout code."
+          },
+          {
+            "step": "03",
+            "title": "Ingénierie",
+            "body": "Développement itératif, architecture évolutive, tests automatisés et intégration continue."
+          },
+          {
+            "step": "04",
+            "title": "Déploiement",
+            "body": "Mise en production maîtrisée, formation des équipes et transfert de compétences."
+          },
+          {
+            "step": "05",
+            "title": "Run & évolution",
+            "body": "Support, monitoring, cycles d'amélioration et feuille de route long terme."
+          }
+        ],
+        "domains": ["Santé publique", "Éducation", "Agriculture", "Gouvernance & état civil", "Finance & inclusion", "Énergie & climat", "Data & IA institutionnelle"],
+        "stack": ["Next.js", "NestJS", "Go", "React Native", "PostgreSQL", "Supabase", "Directus", "Cloudflare", "Docker"],
+        "discover": "Discuter d'un projet"
+      }
+    },
+    "cta": "En savoir plus",
+    "finalCta": {
+      "eyebrow": "Vous portez un projet ?",
+      "title": "Faisons de votre défi la prochaine plateforme à impact.",
+      "subtitle": "Nos équipes accompagnent institutions, bailleurs et opérateurs privés — du cadrage au run.",
+      "primary": "Demander une démonstration",
+      "secondary": "Nous écrire"
+    }
+  },
+  "ContactPage": {
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "Parlons de votre projet",
+      "subtitle": "Vous portez un projet institutionnel, un partenariat ou une opportunité de collaboration ? Notre équipe vous répond sous 48 heures ouvrées."
+    },
+    "form": {
+      "nameLabel": "Nom complet",
+      "namePlaceholder": "Jean Dupont",
+      "nameError": "Veuillez indiquer votre nom (2 caractères minimum).",
+      "emailLabel": "Email professionnel",
+      "emailPlaceholder": "jean.dupont@organisation.org",
+      "emailError": "Veuillez indiquer une adresse email valide.",
+      "organizationLabel": "Organisation",
+      "organizationPlaceholder": "Nom de votre organisation",
+      "organizationError": "Veuillez indiquer votre organisation.",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Décrivez votre projet ou votre demande...",
+      "messageError": "Votre message doit contenir au moins 10 caractères.",
+      "submit": "Envoyer le message",
+      "submitting": "Envoi en cours...",
+      "privacyNote": "Vos données sont traitées de manière confidentielle et ne sont jamais partagées avec des tiers.",
+      "successTitle": "Message envoyé",
+      "successBody": "Merci, nous revenons vers vous sous 48 heures ouvrées.",
+      "errorBody": "Une erreur est survenue. Merci de réessayer ou de nous écrire directement."
+    },
+    "info": {
+      "title": "Informations",
+      "addressLabel": "Adresse",
+      "address": "[CLIENT-FILL: adresse du siège]",
+      "emailLabel2": "Email",
+      "email": "[CLIENT-FILL: email de contact]",
+      "phoneLabel": "Téléphone",
+      "phone": "[CLIENT-FILL: numéro de téléphone]"
+    }
+  }
+}

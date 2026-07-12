@@ -57,9 +57,9 @@
       "title": "Des résultats mesurables",
       "stat1Value": "50+",
       "stat1Label": "Projets réalisés",
-      "stat2Value": "12+",
+      "stat2Value": "3+",
       "stat2Label": "Pays d'intervention",
-      "stat3Value": "100+",
+      "stat3Value": "10+",
       "stat3Label": "Partenaires & institutions",
       "stat4Value": "1M+",
       "stat4Label": "Personnes impactées"
@@ -81,58 +81,368 @@
   "AboutPage": {
     "hero": {
       "eyebrow": "À propos",
-      "title": "Une ingénierie numérique pensée pour l'Afrique"
+      "title": "Une ingénierie numérique pensée pour l'Afrique",
+      "description": "Nous concevons des plateformes qui transforment la santé, la mobilité et la gouvernance sur le continent — avec la rigueur d'un éditeur logiciel et l'ancrage d'une équipe terrain."
     },
     "history": {
+      "eyebrow": "Qui nous sommes",
       "title": "Notre histoire",
-      "body": "Impact Solutions est née d'une conviction : l'Afrique n'a pas besoin de solutions importées, mais d'une ingénierie numérique pensée pour ses propres réalités. [CLIENT-FILL: année de création, jalons clés, pays d'implantation]."
+      "paragraph1": "Impact Solutions est née d'une conviction : l'Afrique n'a pas besoin de solutions importées, mais d'une ingénierie numérique conçue depuis le continent, pour ses propres réalités.",
+      "paragraph2": "Fondée à Dakar, notre équipe réunit des ingénieurs, data scientists et designers qui ont grandi avec les contraintes qu'ils résolvent : connectivité intermittente, hétérogénéité des systèmes, exigences institutionnelles fortes.",
+      "paragraph3": "Aujourd'hui, nos plateformes — KEREYA, PassBi, AFRIASSESS, JOKO AI et AMANET — sont déployées au Sénégal, en Guinée et bientôt dans la zone UEMOA, au service des ministères, des bailleurs internationaux et des opérateurs privés."
     },
     "mission": {
-      "title": "Mission",
-      "body": "Concevoir des solutions numériques qui améliorent durablement les services essentiels en Afrique."
+      "title": "Notre mission",
+      "body": "Concevoir et déployer des solutions numériques qui améliorent durablement les services essentiels en Afrique — santé, mobilité, environnement, gouvernance. Chaque ligne de code que nous écrivons doit produire un impact mesurable sur le terrain."
     },
     "vision": {
-      "title": "Vision",
-      "body": "Devenir la référence panafricaine de l'ingénierie numérique à impact, reconnue par les institutions, les bailleurs et les partenaires industriels."
+      "title": "Notre vision",
+      "body": "Devenir la référence panafricaine de l'ingénierie numérique à impact : une entreprise dont les plateformes sont reconnues par les institutions, les bailleurs et les partenaires industriels comme le standard d'excellence technique sur le continent."
     },
     "values": {
       "title": "Nos valeurs",
+      "subtitle": "Sept principes qui guident chaque décision, chaque ligne de code, chaque déploiement.",
       "innovation": {
         "title": "Innovation",
-        "body": "Nous explorons continuellement de nouvelles approches technologiques pour résoudre des problèmes complexes."
+        "body": "Nous explorons continuellement de nouvelles approches — IA, offline-first, interopérabilité — pour résoudre des problèmes que les solutions classiques ignorent."
       },
       "excellence": {
         "title": "Excellence",
-        "body": "Nous visons la rigueur technique et la qualité à chaque étape, du cadrage au déploiement."
+        "body": "Rigueur technique à chaque étape : architecture pensée pour l'échelle, tests automatisés, revues de code systématiques."
       },
       "impact": {
         "title": "Impact",
-        "body": "Chaque solution que nous construisons doit produire un effet mesurable sur le terrain."
+        "body": "Chaque solution doit produire un effet mesurable. Pas de technologie pour la technologie — des résultats pour les populations."
       },
       "reliability": {
         "title": "Fiabilité",
-        "body": "Nos plateformes sont conçues pour fonctionner de manière stable, sécurisée et durable."
+        "body": "Nos plateformes fonctionnent quand il n'y a ni réseau stable, ni électricité constante. La robustesse n'est pas un bonus, c'est un pré-requis."
       },
       "openness": {
         "title": "Ouverture",
-        "body": "Nous privilégions les standards ouverts et l'interopérabilité plutôt que les silos technologiques."
+        "body": "Standards ouverts, API documentées, interopérabilité native. Nous construisons des ponts, pas des silos."
       },
       "collaboration": {
         "title": "Collaboration",
-        "body": "Nous travaillons aux côtés de nos partenaires, pas seulement pour eux."
+        "body": "Nous travaillons aux côtés de nos partenaires, pas seulement pour eux. Co-conception, transfert de compétences, appropriation locale."
       },
       "ethics": {
         "title": "Éthique",
-        "body": "Nous plaçons la protection des données et l'usage responsable de la technologie au cœur de nos choix."
+        "body": "Protection des données, IA explicable, consentement éclairé. La technologie responsable est la seule technologie durable."
       }
     },
     "approach": {
+      "eyebrow": "Comment nous travaillons",
       "title": "Notre approche",
-      "body": "Nous combinons expertise technique, compréhension du terrain et rigueur méthodologique pour livrer des solutions qui durent au-delà du déploiement initial."
+      "subtitle": "De la compréhension du terrain au déploiement en production, une méthodologie éprouvée en cinq étapes.",
+      "steps": {
+        "s1": {
+          "number": "Étape 01",
+          "title": "Cadrage & immersion",
+          "body": "Ateliers terrain avec les équipes métier pour comprendre les contraintes réelles, formaliser les besoins et définir les indicateurs de succès."
+        },
+        "s2": {
+          "number": "Étape 02",
+          "title": "Design produit",
+          "body": "Prototypes interactifs, tests utilisateurs et arbitrages de portée avant toute ligne de code. On valide avec les futurs utilisateurs, pas en salle de réunion."
+        },
+        "s3": {
+          "number": "Étape 03",
+          "title": "Ingénierie",
+          "body": "Développement itératif, architecture pensée pour l'échelle, tests automatisés et intégration continue. Code review systématique."
+        },
+        "s4": {
+          "number": "Étape 04",
+          "title": "Déploiement",
+          "body": "Mise en production maîtrisée, formation des équipes terrain et transfert de compétences pour une appropriation durable."
+        },
+        "s5": {
+          "number": "Étape 05",
+          "title": "Run & évolution",
+          "body": "Monitoring continu, support réactif, cycles d'amélioration et feuille de route long terme co-construite avec nos partenaires."
+        }
+      }
     },
     "team": {
-      "title": "Notre équipe",
-      "body": "[CLIENT-FILL: présentation de l'équipe dirigeante et des profils clés]"
+      "eyebrow": "L'équipe",
+      "title": "Des ingénieurs qui connaissent le terrain",
+      "body": "Notre équipe combine expertise technique de haut niveau et compréhension profonde des contextes africains. Ingénieurs logiciels, data scientists, spécialistes SIG, designers UX — chaque profil est choisi pour sa capacité à livrer des solutions qui fonctionnent dans les conditions réelles du continent.",
+      "cta": "Rejoindre l'équipe"
+    }
+  },
+  "ExpertisePage": {
+    "meta": {
+      "title": "Nos Expertises",
+      "description": "Découvrez nos domaines d'expertise : IA, développement web et mobile, cloud, cybersécurité, data, santé numérique et plus. IMPACT SOLUTIONS accompagne la transformation digitale de l'Afrique."
+    },
+    "hero": {
+      "eyebrow": "Nos Expertises",
+      "title": "Nos Expertises",
+      "subtitle": "Nous concevons des solutions numériques innovantes qui répondent aux enjeux stratégiques des entreprises, institutions et gouvernements africains.",
+      "primaryCta": "Découvrir nos services",
+      "secondaryCta": "Parler à un expert"
+    },
+    "approach": {
+      "eyebrow": "Notre approche",
+      "title": "De la stratégie au déploiement",
+      "subtitle": "Une méthodologie éprouvée en 7 étapes pour accompagner nos clients de bout en bout.",
+      "steps": {
+        "s1": { "title": "Comprendre", "description": "Immersion terrain, analyse des besoins et identification des enjeux stratégiques." },
+        "s2": { "title": "Conseiller", "description": "Recommandations et arbitrages technologiques adaptés à votre contexte." },
+        "s3": { "title": "Concevoir", "description": "Architecture, prototypage et validation avec les parties prenantes." },
+        "s4": { "title": "Développer", "description": "Développement itératif, tests automatisés et intégration continue." },
+        "s5": { "title": "Déployer", "description": "Mise en production maîtrisée et accompagnement au changement." },
+        "s6": { "title": "Former", "description": "Transfert de compétences et autonomisation des équipes." },
+        "s7": { "title": "Maintenir", "description": "Support continu, monitoring et évolution à long terme." }
+      }
+    },
+    "domains": {
+      "eyebrow": "Domaines d'expertise",
+      "title": "12 domaines d'excellence",
+      "subtitle": "De l'intelligence artificielle à la transformation digitale, nous couvrons l'ensemble du spectre technologique.",
+      "discover": "Découvrir",
+      "ai": {
+        "title": "Intelligence Artificielle",
+        "description": "IA Générative, Agents IA, Chatbots, Vision par ordinateur, NLP, automatisation intelligente et Machine Learning au service de vos enjeux métier.",
+        "sector1": "Santé",
+        "sector2": "Finance",
+        "sector3": "Gouvernance"
+      },
+      "web": {
+        "title": "Développement Web",
+        "description": "Applications Web, SaaS, ERP, CRM et portails métiers robustes, évolutifs et conçus pour l'échelle.",
+        "sector1": "Tous secteurs",
+        "sector2": "Entreprises",
+        "sector3": "Institutions"
+      },
+      "mobile": {
+        "title": "Développement Mobile",
+        "description": "Applications Android, iOS, Flutter et React Native pensées pour l'usage réel, y compris en mode hors-ligne.",
+        "sector1": "Transport",
+        "sector2": "Santé",
+        "sector3": "Finance"
+      },
+      "cloud": {
+        "title": "Cloud & DevOps",
+        "description": "Infrastructures AWS, Azure, GCP sécurisées avec Docker, Kubernetes et pipelines CI/CD automatisés.",
+        "sector1": "Technologie",
+        "sector2": "Banque",
+        "sector3": "Télécoms"
+      },
+      "cybersecurity": {
+        "title": "Cybersécurité",
+        "description": "Audit de sécurité, IAM, tests d'intrusion, sécurisation Cloud et gouvernance de la sécurité informatique.",
+        "sector1": "Finance",
+        "sector2": "Gouvernement",
+        "sector3": "Santé"
+      },
+      "data": {
+        "title": "Data & Business Intelligence",
+        "description": "Dashboards, Data Warehouse, ETL, Big Data et Analytics pour transformer vos données en décisions éclairées.",
+        "sector1": "Tous secteurs",
+        "sector2": "ONG",
+        "sector3": "Industries"
+      },
+      "ehealth": {
+        "title": "Santé Numérique",
+        "description": "Dossiers médicaux électroniques, télémédecine, systèmes d'information hospitaliers et IA médicale.",
+        "sector1": "Hôpitaux",
+        "sector2": "Ministères",
+        "sector3": "ONG Santé"
+      },
+      "logistics": {
+        "title": "Logistique & Transport",
+        "description": "TMS, billetterie, gestion de flotte, traçabilité et optimisation de la chaîne logistique.",
+        "sector1": "Transport",
+        "sector2": "Logistique",
+        "sector3": "Commerce"
+      },
+      "fintech": {
+        "title": "Finance Digitale",
+        "description": "Paiements numériques, FinTech, Mobile Money et ERP comptable conformes aux normes OHADA et BCEAO.",
+        "sector1": "Banque",
+        "sector2": "Assurance",
+        "sector3": "Startups"
+      },
+      "agritech": {
+        "title": "Agriculture Numérique",
+        "description": "AgriTech, traçabilité des filières, Smart Farming et IoT pour moderniser l'agriculture africaine.",
+        "sector1": "Agriculture",
+        "sector2": "Coopératives",
+        "sector3": "Agro-industrie"
+      },
+      "govtech": {
+        "title": "GovTech",
+        "description": "Digitalisation des services publics, e-Government, identité numérique et portails citoyens.",
+        "sector1": "Gouvernement",
+        "sector2": "Collectivités",
+        "sector3": "Institutions"
+      },
+      "transformation": {
+        "title": "Transformation Digitale",
+        "description": "Audit SI, urbanisation, conseil stratégique, schéma directeur et accompagnement au changement.",
+        "sector1": "Entreprises",
+        "sector2": "Administrations",
+        "sector3": "ONG"
+      }
+    },
+    "sectors": {
+      "eyebrow": "Secteurs d'activité",
+      "title": "Des secteurs que nous connaissons",
+      "subtitle": "Notre expertise terrain dans ces secteurs garantit des solutions adaptées aux réalités locales.",
+      "items": {
+        "s1": "Santé",
+        "s2": "Transport",
+        "s3": "Banque",
+        "s4": "Assurance",
+        "s5": "Logistique",
+        "s6": "Industrie",
+        "s7": "Agriculture",
+        "s8": "ONG",
+        "s9": "Éducation",
+        "s10": "Secteur Public",
+        "s11": "Télécommunications",
+        "s12": "Énergie"
+      }
+    },
+    "techWall": {
+      "eyebrow": "Technologies",
+      "title": "Technologies maîtrisées",
+      "subtitle": "Un écosystème technologique complet pour répondre à tous les défis."
+    },
+    "methodology": {
+      "eyebrow": "Méthodologie",
+      "title": "Notre processus de réalisation",
+      "subtitle": "Une méthodologie rigoureuse qui garantit la qualité et le respect des délais.",
+      "steps": {
+        "s1": { "title": "Découverte", "description": "Compréhension approfondie du contexte et des besoins." },
+        "s2": { "title": "Analyse", "description": "Étude de faisabilité et spécifications fonctionnelles." },
+        "s3": { "title": "Architecture", "description": "Conception technique et choix technologiques." },
+        "s4": { "title": "UX/UI", "description": "Design d'interfaces centrées utilisateur." },
+        "s5": { "title": "Développement", "description": "Développement itératif en sprints courts." },
+        "s6": { "title": "QA", "description": "Tests automatisés et validation fonctionnelle." },
+        "s7": { "title": "Déploiement", "description": "Mise en production et migration des données." },
+        "s8": { "title": "Support", "description": "Maintenance évolutive et support réactif." }
+      }
+    },
+    "whyUs": {
+      "eyebrow": "Nos différenciants",
+      "title": "Pourquoi choisir IMPACT SOLUTIONS ?",
+      "subtitle": "Ce qui nous distingue des autres prestataires technologiques.",
+      "items": {
+        "i1": { "title": "Expertise panafricaine", "description": "Une connaissance intime des réalités, contraintes et opportunités du continent africain." },
+        "i2": { "title": "Équipe multidisciplinaire", "description": "Ingénieurs, data scientists, designers et experts métier réunis dans une équipe intégrée." },
+        "i3": { "title": "Solutions sur mesure", "description": "Chaque solution est conçue pour votre contexte spécifique, pas de produit générique." },
+        "i4": { "title": "IA intégrée", "description": "L'intelligence artificielle est au cœur de nos solutions, pas un ajout cosmétique." },
+        "i5": { "title": "Approche Agile", "description": "Livraisons itératives, feedback continu et adaptation permanente aux besoins." },
+        "i6": { "title": "Support continu", "description": "Accompagnement post-déploiement, monitoring 24/7 et évolution continue." },
+        "i7": { "title": "Sécurité by Design", "description": "La sécurité est intégrée dès la conception, pas ajoutée après coup." },
+        "i8": { "title": "Standards internationaux", "description": "Conformité aux normes internationales : FHIR, GTFS, ISO 27001, RGPD." }
+      }
+    },
+    "caseStudies": {
+      "eyebrow": "Réalisations",
+      "title": "Nos succès",
+      "seeMore": "Voir tous les cas",
+      "problemLabel": "Problématique",
+      "solutionLabel": "Solution",
+      "resultLabel": "Résultat",
+      "items": {
+        "c1": {
+          "client": "Région médicale de Kolda",
+          "sector": "Santé",
+          "problem": "Mortalité maternelle élevée et suivi papier des patientes dans les districts ruraux.",
+          "solution": "Plateforme KEREYA de santé maternelle digitale avec architecture offline-first.",
+          "result": "Suivi continu de milliers de femmes enceintes, référence numérique horodatée entre niveaux de soins."
+        },
+        "c2": {
+          "client": "Dem Dikk / AFTU",
+          "sector": "Transport",
+          "problem": "Réseaux de transport en silos, pas de billettique commune ni de planification multimodale.",
+          "solution": "Plateforme PassBi avec routage RAPTOR, billettique NFC et paiement mobile.",
+          "result": "292 bus équipés NFC, partenariat officiel pour le JOJ Dakar 2026."
+        },
+        "c3": {
+          "client": "Cabinets d'études environnementales",
+          "sector": "Environnement",
+          "problem": "Production de rapports d'impact en 3 semaines, données en silos incompatibles.",
+          "solution": "AFRIASSESS : harmonisation automatique et génération IA de rapports conformes bailleurs.",
+          "result": "Production d'un rapport PAR en 1 journée au lieu de 3 semaines."
+        },
+        "c4": {
+          "client": "Agences de transit logistique",
+          "sector": "Logistique",
+          "problem": "Gestion manuelle via Excel, dédouanement en 2-5 jours, 15-20% d'erreurs.",
+          "solution": "AMANET : ERP 11 modules avec dédouanement digitalisé et suggestion HS code par ML.",
+          "result": "Réduction de 80% du temps de traitement des dossiers."
+        }
+      }
+    },
+    "kpis": {
+      "eyebrow": "Chiffres clés",
+      "title": "Notre impact en chiffres",
+      "items": {
+        "k1": { "value": "50+", "label": "Projets réalisés" },
+        "k2": { "value": "10+", "label": "Experts internes et partenaires" },
+        "k3": { "value": "3", "label": "Pays accompagnés" },
+        "k4": { "value": "95%", "label": "Clients satisfaits" },
+        "k5": { "value": "99.9%", "label": "Disponibilité" },
+        "k6": { "value": "100%", "label": "Solutions sur mesure" }
+      }
+    },
+    "testimonials": {
+      "eyebrow": "Témoignages",
+      "title": "Ce que disent nos partenaires",
+      "items": {
+        "t1": {
+          "name": "Dr. Amadou Diallo",
+          "company": "Région médicale de Kolda",
+          "quote": "IMPACT SOLUTIONS a transformé notre façon de suivre les grossesses dans les districts ruraux. La plateforme KEREYA fonctionne même sans réseau, ce qui change tout pour nos agents de santé."
+        },
+        "t2": {
+          "name": "Fatou Ndiaye",
+          "company": "Directrice Innovation, Dem Dikk",
+          "quote": "PassBi nous a permis de connecter notre réseau à l'ensemble du transport urbain de Dakar. L'équipe comprend nos contraintes et livre avec une rigueur exemplaire."
+        },
+        "t3": {
+          "name": "Moussa Camara",
+          "company": "DG, Cabinet EvalPro",
+          "quote": "Avec AFRIASSESS, nous produisons en une journée ce qui nous prenait trois semaines. La conformité bailleurs est automatique et nos clients sont impressionnés."
+        }
+      }
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Questions fréquentes",
+      "items": {
+        "q1": {
+          "question": "Quels types de projets réalisez-vous ?",
+          "answer": "Nous réalisons des projets allant des applications web et mobiles aux plateformes SaaS complexes, en passant par les systèmes d'information de santé, les solutions de transport intelligent, les ERP métier et les projets d'intelligence artificielle. Chaque solution est conçue sur mesure pour répondre à vos enjeux spécifiques."
+        },
+        "q2": {
+          "question": "Travaillez-vous dans toute l'Afrique ?",
+          "answer": "Oui, nous accompagnons des clients dans 12 pays africains. Notre siège est à Dakar, et nous intervenons principalement en Afrique de l'Ouest (Sénégal, Guinée, Côte d'Ivoire, Mali, Bénin, Togo) avec une expansion vers l'Afrique Centrale et de l'Est."
+        },
+        "q3": {
+          "question": "Quelles technologies utilisez-vous ?",
+          "answer": "Nous maîtrisons un large spectre technologique : Go, Node.js, Python, React, Next.js, Flutter pour le développement ; AWS, Azure, GCP pour le cloud ; PostgreSQL, MongoDB, Redis pour les bases de données ; et les derniers modèles d'IA (Claude, GPT, Gemini, Llama) pour l'intelligence artificielle."
+        },
+        "q4": {
+          "question": "Combien de temps dure un projet ?",
+          "answer": "La durée dépend de la complexité : un MVP peut être livré en 6-8 semaines, une plateforme complète en 3-6 mois. Nous privilégions les livraisons itératives pour que vous puissiez voir les premiers résultats rapidement et valider la direction avant chaque étape."
+        },
+        "q5": {
+          "question": "Comment démarre une collaboration ?",
+          "answer": "Tout commence par un échange pour comprendre vos besoins. Nous organisons ensuite un atelier de cadrage pour formaliser le périmètre, les objectifs et les indicateurs de succès. Un devis détaillé vous est proposé avec un planning prévisionnel. Une fois validé, nous démarrons par un sprint de découverte."
+        }
+      }
+    },
+    "cta": {
+      "eyebrow": "Prêt à transformer votre organisation ?",
+      "title": "Transformons ensemble votre organisation.",
+      "subtitle": "Nos experts vous accompagnent dans la conception et la réalisation de solutions numériques innovantes adaptées à vos enjeux.",
+      "primary": "Parler à un expert",
+      "secondary": "Demander un devis"
     }
   },
   "ExpertisesPage": {
@@ -256,31 +566,574 @@
   "SolutionsPage": {
     "hero": {
       "eyebrow": "Solutions",
-      "title": "Des plateformes conçues pour l'impact, éprouvées sur le terrain"
+      "title": "Des plateformes conçues pour l'impact, éprouvées sur le terrain",
+      "description": "Nos produits accompagnent ministères, agences et bailleurs qui déploient des services essentiels à grande échelle. Chaque solution est architecturée pour l'interopérabilité, la conformité et l'exploitation continue."
+    },
+    "overview": {
+      "eyebrow": "Portefeuille produits",
+      "title": "Cinq plateformes, un même standard d'ingénierie",
+      "description": "KEREYA, PASSBI, AFRIASSESS, JOKO AI ET AMANET sont des produits déployés sur le terrain. Nos solutions sur mesure prolongent ces briques pour répondre à des besoins spécifiques.",
+      "jumpTo": "Aller à la solution"
+    },
+    "sections": {
+      "problem": "Le problème",
+      "value": "Notre réponse",
+      "innovation": "Ce qui nous rend uniques",
+      "impact": "Impact au quotidien",
+      "stack": "Stack technique",
+      "users": "Pour qui",
+      "markets": "Marchés initiaux",
+      "approach": "Notre approche",
+      "domains": "Domaines d'intervention"
+    },
+    "badges": {
+      "status": "Statut"
     },
     "items": {
       "kereya": {
         "name": "KEREYA",
-        "tagline": "Plateforme de santé numérique",
-        "body": "KEREYA connecte patients, professionnels de santé et établissements pour améliorer l'accès aux soins et la continuité des parcours médicaux."
+        "tagline": "Santé maternelle, néonatale et infantile",
+        "body": "KEREYA réduit les trois retards en santé maternelle et infantile — de la décision de consulter à la référence hospitalière — dans les districts sanitaires ruraux du Sénégal.",
+        "pitch": "Plateforme numérique de réduction des trois retards en santé maternelle, néonatale et infantile — de la décision de consulter à la référence hospitalière, conçue pour les districts sanitaires ruraux du Sénégal.",
+        "status": "Projet pilote — Région médicale de Kolda",
+        "problem": [
+          "Le Sénégal enregistre un taux de mortalité maternelle élevé (315 pour 100 000 naissances), particulièrement critique dans les zones rurales comme le Fouladou (Région médicale de Kolda).",
+          "Les systèmes existants comme DHIS2 ne digitalisent pas les registres cliniques : ils servent uniquement à remonter des rapports agrégés vers le Ministère, sans suivi individuel numérique des patientes.",
+          "Les femmes enceintes et les enfants sont suivis via des registres papier et des carnets de santé physiques, exposés à la perte, à l'illisibilité et à la rupture de continuité entre niveaux de soins.",
+          "Les références entre postes de santé, districts et hôpitaux se font de manière informelle, sans traçabilité ni retour d'information (contre-référence) vers la structure d'origine."
+        ],
+        "value": [
+          {
+            "title": "Plateforme intégrée des trois retards",
+            "body": "11 sous-modules couvrant la décision de consulter, la prise en charge clinique (CPN, CPoN, PEV, planning familial) et la référence numérique horodatée entre niveaux de soins.",
+            "featured": true
+          },
+          {
+            "title": "Architecture offline-first",
+            "body": "Fonctionne sans connectivité stable, avec synchronisation différée adaptée aux zones rurales enclavées et à la saisonnalité de l'hivernage."
+          },
+          {
+            "title": "Mobilisation communautaire terrain",
+            "body": "Outils dédiés aux relais communautaires (Bajenu Gox, Agents de Santé Communautaire) pour la sensibilisation de proximité et l'enrôlement à la Couverture Maladie Universelle."
+          },
+          {
+            "title": "Suivi-évaluation scientifique intégré",
+            "body": "Design quasi-expérimental Difference-in-Differences apparié, conçu avec un cabinet d'évaluation indépendant pour mesurer rigoureusement l'impact du projet."
+          }
+        ],
+        "impact": [
+          {
+            "persona": "Agent de santé",
+            "metric": "Dossier patient continu",
+            "body": "CPN, accouchement et suivi postnatal réunis dans un seul dossier numérique, du premier au dernier contact."
+          },
+          {
+            "persona": "Femme enceinte",
+            "metric": "Rappels de rendez-vous",
+            "body": "Alertes automatiques pour les consultations prénatales et les vaccinations de l'enfant."
+          },
+          {
+            "persona": "Médecin-Chef de District",
+            "metric": "Pilotage par les données",
+            "body": "Tableau de bord d'indicateurs en temps réel, interopérable avec le DHIS2 national."
+          },
+          {
+            "persona": "Région médicale",
+            "metric": "Référence tracée",
+            "body": "Chaque transfert entre structures est horodaté, notifié et documenté jusqu'à la prise en charge effective."
+          }
+        ],
+        "stack": [
+          "Go",
+          "PostgreSQL",
+          "Next.js (PWA)",
+          "Dexie (IndexedDB)",
+          "Keycloak",
+          "DHIS2 API",
+          "Docker",
+          "Architecture ML-ready"
+        ],
+        "users": [
+          "Districts sanitaires",
+          "Régions médicales",
+          "Ministère de la Santé",
+          "Bailleurs internationaux (FID, AFD)",
+          "ONG santé maternelle"
+        ],
+        "discover": "Découvrir KEREYA en détail"
       },
       "passbi": {
-        "name": "PASSBI",
-        "tagline": "Mobilité intelligente",
-        "body": "PASSBI optimise le transport public grâce à la donnée en temps réel et à la planification d'itinéraires."
+        "name": "PassBi",
+        "tagline": "Mobilité urbaine multimodale",
+        "body": "PassBi connecte BRT, TER, Dem Dikk et AFTU dans une seule application — billettique NFC, itinéraires intelligents et données de mobilité temps réel.",
+        "pitch": "La plateforme SaaS de mobilité urbaine multimodale qui connecte BRT, TER, Dem Dikk et AFTU dans une seule application — billettique NFC, calcul d'itinéraires intelligent et données de mobilité en temps réel.",
+        "status": "En déploiement — Dakar",
+        "problem": [
+          "Les réseaux de transport public de Dakar (BRT SunuBRT, TER, Dem Dikk, AFTU) fonctionnent en silos, sans billettique ni planification d'itinéraire communes.",
+          "Les usagers jonglent entre plusieurs tickets, plusieurs files d'attente et n'ont aucune visibilité sur les correspondances multimodales.",
+          "Les opérateurs de transport ne disposent d'aucun tableau de bord unifié pour piloter fréquentation, recettes et performance de leurs lignes.",
+          "À l'approche des Jeux Olympiques de la Jeunesse Dakar 2026, aucune solution numérique unifiée n'existe pour orienter visiteurs, athlètes et délégations sur le réseau de transport."
+        ],
+        "value": [
+          {
+            "title": "Plateforme multimodale unifiée",
+            "body": "Moteur de routage RAPTOR sur données GTFS, calcul d'itinéraires optimisés en temps et correspondances sur l'ensemble du réseau BRT / TER / Dem Dikk / AFTU."
+          },
+          {
+            "title": "Billettique NFC intégrée",
+            "body": "292 bus AFTU déjà équipés en validateurs NFC — un seul support pour valider son trajet, sans ticket papier."
+          },
+          {
+            "title": "Wallet & paiements mobiles",
+            "body": "Recharge et paiement via Wave, Orange Money (cadre réglementaire BCEAO)."
+          },
+          {
+            "title": "Data & intelligence de mobilité",
+            "body": "Tableau de bord CO₂ par trajet, données de fréquentation temps réel pour les opérateurs et les autorités de transport."
+          }
+        ],
+        "impact": [
+          {
+            "persona": "Usager",
+            "metric": "Un seul pass, tout le réseau",
+            "body": "Fini les tickets multiples : un trajet multimodal planifié et payé en une seule application."
+          },
+          {
+            "persona": "Opérateur de transport",
+            "metric": "Pilotage temps réel",
+            "body": "Dashboard fréquentation, recettes et performance des lignes, accessible à tout moment."
+          },
+          {
+            "persona": "Institutions (CETUD, COJOJ)",
+            "metric": "Prêt pour le JOJ 2026",
+            "body": "Partenariat officiel avec Dem Dikk pour le transport des Jeux Olympiques de la Jeunesse — visibilité et gouvernance data pour les autorités."
+          },
+          {
+            "persona": "Investisseurs & partenaires",
+            "metric": "Scalable UEMOA",
+            "body": "Conçue à Dakar, pensée pour une réplication régionale : Côte d'Ivoire, Bénin, Togo, Guinée."
+          }
+        ],
+        "stack": [
+          "Go (RAPTOR)",
+          "NestJS",
+          "PostgreSQL",
+          "pgvector",
+          "Redis",
+          "MongoDB",
+          "Ionic Angular",
+          "Leaflet",
+          "CartoDB",
+          "Docker"
+        ],
+        "users": [
+          "Opérateurs de transport",
+          "Institutions publiques (CETUD, COJOJ)",
+          "Investisseurs",
+          "Grand public / usagers",
+          "Entreprises (Plan Mobilité Employeur)",
+          "Écoles (Smart School Bus)"
+        ],
+        "discover": "Découvrir PassBi en détail"
       },
       "afriassess": {
         "name": "AFRIASSESS",
-        "tagline": "Études environnementales",
-        "body": "AFRIASSESS structure, centralise et fiabilise l'évaluation des impacts environnementaux et sociaux des projets."
+        "tagline": "Études environnementales et sociales",
+        "body": "AFRIASSESS structure, centralise et fiabilise l'évaluation des impacts environnementaux et sociaux des projets.",
+        "pitch": "Toute la chaîne des études d'impact — PAR, EIES, PGES — industrialisée sur une plateforme unique, conforme aux exigences des bailleurs. De la donnée terrain au rapport final en une journée au lieu de trois semaines.",
+        "status": "3 cabinets d'études — Sénégal et Guinée",
+        "problem": [
+          "Les données terrain arrivent en silos incompatibles (CSV KoboCollect, KMZ / QGIS, registres Excel de commission) — les réconcilier proprement prend plusieurs jours.",
+          "La rédaction des rapports est chronophage : jusqu'à trois semaines pour un PAR standard.",
+          "Les calculs d'indemnisation menés dans Excel ne sont pas auditables, ce qui génère des litiges avec les personnes affectées.",
+          "Chaque bailleur (Banque mondiale, AFD, BAD, IFC) impose ses propres formats et normes, obligeant à retravailler chaque livrable."
+        ],
+        "value": [
+          {
+            "title": "Harmonizer intelligent",
+            "body": "Import multi-sources (CSV, XLSX, KMZ, GeoJSON) et fusion automatique des données socio-économiques et cartographiques en 20 minutes au lieu de plusieurs jours."
+          },
+          {
+            "title": "Rapport IA conforme bailleurs",
+            "body": "Génération assistée par IA d'un rapport structuré — 10 sections pour un PAR — avec citation systématique des sources (normes, barèmes, législations)."
+          },
+          {
+            "title": "Cartographie & SIG",
+            "body": "Localisation des sites, données environnementales, exposition aux risques et identification des zones sensibles."
+          },
+          {
+            "title": "Conformité & traçabilité",
+            "body": "Modèles alignés Banque mondiale (NES n°5 / PO 4.12), IFC (PS5), BAD et AFD — avec circuit de validation traçable entre bureau d'études, commission et bailleur."
+          }
+        ],
+        "innovation": [
+          {
+            "title": "Moteur de matching à 4 couches",
+            "body": "Normalisation déterministe, scoring multi-critères (Jaro-Winkler, Levenshtein), détection de patterns par IA qui apprend des corrections, et résolution humaine assistée. Réconcilie des identifiants incompatibles entre acteurs."
+          },
+          {
+            "title": "RAG contextualisé Afrique",
+            "body": "Un corpus de standards, barèmes officiels et législations par pays, validé par des humains avant indexation — jamais alimenté brut depuis internet. Chaque rapport reste ancré dans le cadre légal réel du pays concerné."
+          },
+          {
+            "title": "Rapport IA traçable",
+            "body": "Chaque section générée cite ses sources — version du barème, date d'effet, référence officielle. La traçabilité légale est assurée pour la due diligence bailleur."
+          }
+        ],
+        "impact": [
+          {
+            "persona": "Bureau d'études",
+            "metric": "3 sem. → 1 journée",
+            "body": "Modèles conformes et harmonisation automatique accélèrent radicalement la production des livrables."
+          },
+          {
+            "persona": "Ministère",
+            "metric": "Instruction en ligne",
+            "body": "Les dossiers sont revus, annotés et validés dans un espace centralisé."
+          },
+          {
+            "persona": "Bailleur",
+            "metric": "Due diligence en un clic",
+            "body": "Accès direct à l'historique, aux versions et aux justificatifs de conformité — sources citées."
+          },
+          {
+            "persona": "Public",
+            "metric": "Consultation ouverte",
+            "body": "Les études sont accessibles au public, avec un espace de retour structuré."
+          }
+        ],
+        "stack": [
+          "Go",
+          "React / TypeScript",
+          "PostgreSQL 16",
+          "PostGIS",
+          "pgvector",
+          "IA — Claude + RAG",
+          "MapLibre GL",
+          "Cloudflare R2",
+          "JWT + RLS multi-tenant",
+          "Flutter (Phase 2)"
+        ],
+        "users": [
+          "Bureaux d'études",
+          "Ministères de l'Environnement",
+          "Agences nationales",
+          "Bailleurs internationaux",
+          "Société civile"
+        ],
+        "markets": [
+          "Sénégal",
+          "Guinée",
+          "Côte d'Ivoire",
+          "Mali",
+          "Cameroun"
+        ],
+        "discover": "Découvrir AFRIASSESS en détail"
+      },
+      "amanet": {
+        "name": "AMANET",
+        "tagline": "ERP logistique & transit douanier",
+        "body": "AMANET industrialise la chaîne opérationnelle des agences de transit — devis, flotte, douane, facturation et RH — sur une plateforme unique conforme SYSCOHADA.",
+        "pitch": "Toute la chaîne opérationnelle du transit logistique — devis, flotte, douane, facturation, RH — industrialisée sur une plateforme unique conforme SYSCOHADA.",
+        "status": "En développement",
+        "problem": [
+          "Gestion manuelle via Excel et e-mails, sans visibilité en temps réel sur les véhicules ni les chauffeurs.",
+          "Dédouanement manuel : deux à cinq jours d'attente, dossiers papier non exploitables.",
+          "Facturation papier, retards de paiement et taux d'erreur de 15 à 20 % sur les dossiers.",
+          "Paie, RH et données clients gérées manuellement, sans suivi structuré ni traçabilité."
+        ],
+        "value": [
+          {
+            "title": "Plateforme ERP 11 modules",
+            "body": "Devis, flotte, douane, facturation, RH connectés — chaque donnée saisie une fois circule dans tout le système.",
+            "featured": true
+          },
+          {
+            "title": "Suivi flotte temps réel",
+            "body": "Géolocalisation de 25 à 35 véhicules et 30 à 40 chauffeurs, suivi carburant et maintenance."
+          },
+          {
+            "title": "Dédouanement digitalisé",
+            "body": "Workflow ASYCUDA++ avec suggestion HS code par ML (80 % de précision) et gestion automatique des RFI."
+          },
+          {
+            "title": "Conformité SYSCOHADA",
+            "body": "Facturation automatique, comptabilité et paie sénégalaise (IPRES, CSS, IRPP, TVA 18 %) alignées aux normes locales."
+          }
+        ],
+        "impact": [
+          {
+            "persona": "Opérations",
+            "metric": "−80% durée de traitement",
+            "body": "Un dossier passe de 30-40 jours à 5-7 jours."
+          },
+          {
+            "persona": "Douane",
+            "metric": "Dédouanement en 6-12 h",
+            "body": "Contre deux à cinq jours en procédure manuelle."
+          },
+          {
+            "persona": "Finance",
+            "metric": "Facturation automatique",
+            "body": "Générée dès confirmation de livraison, erreurs réduites à moins de 2 %."
+          },
+          {
+            "persona": "RH",
+            "metric": "Paie en moins de 2 h",
+            "body": "Contre deux à trois jours de traitement manuel auparavant."
+          }
+        ],
+        "stack": [
+          "Go (Golang)",
+          "Next.js / React",
+          "React Native",
+          "PostgreSQL / Supabase",
+          "WebSocket + Redis",
+          "Render",
+          "JWT + MFA"
+        ],
+        "users": [
+          "Agences de transit",
+          "Compagnies de transport",
+          "Bureaux de douane",
+          "PME import-export",
+          "Bailleurs et partenaires logistiques Afrique de l'Ouest"
+        ],
+        "discover": "Découvrir AMANET en détail"
       },
       "custom": {
         "name": "Solutions sur mesure",
-        "tagline": "Développement de plateformes numériques",
-        "body": "Nous concevons des plateformes numériques sur mesure pour répondre aux défis spécifiques de nos partenaires, du cadrage au déploiement."
+        "tagline": "Plateformes numériques dédiées",
+        "body": "Nous concevons des plateformes numériques sur mesure pour répondre aux défis spécifiques de nos partenaires, du cadrage au déploiement.",
+        "pitch": "Quand aucune brique existante ne suffit, nous concevons la plateforme qui correspond exactement à votre contexte — de la première ligne de code jusqu'au run.",
+        "status": "Sur demande",
+        "approach": [
+          {
+            "step": "01",
+            "title": "Cadrage",
+            "body": "Ateliers avec vos équipes métier pour formaliser besoins, contraintes et indicateurs de succès."
+          },
+          {
+            "step": "02",
+            "title": "Design produit",
+            "body": "Prototypes interactifs, tests utilisateurs et arbitrages de portée avant tout code."
+          },
+          {
+            "step": "03",
+            "title": "Ingénierie",
+            "body": "Développement itératif, architecture évolutive, tests automatisés et intégration continue."
+          },
+          {
+            "step": "04",
+            "title": "Déploiement",
+            "body": "Mise en production maîtrisée, formation des équipes et transfert de compétences."
+          },
+          {
+            "step": "05",
+            "title": "Run & évolution",
+            "body": "Support, monitoring, cycles d'amélioration et feuille de route long terme."
+          }
+        ],
+        "domains": [
+          "Santé publique",
+          "Éducation",
+          "Agriculture",
+          "Gouvernance & état civil",
+          "Finance & inclusion",
+          "Énergie & climat",
+          "Data & IA institutionnelle"
+        ],
+        "stack": [
+          "Next.js",
+          "NestJS",
+          "Go",
+          "React Native",
+          "PostgreSQL",
+          "Supabase",
+          "Directus",
+          "Cloudflare",
+          "Docker"
+        ],
+        "discover": "Discuter d'un projet"
+      },
+      "jokoai": {
+        "name": "JOKO AI",
+        "tagline": "OS pour startups africaines",
+        "body": "JOKO AI est le système d'exploitation des startups africaines — des modules activables, boostés par l'IA, calibrés pour la réalité locale : comptabilité OHADA, francs CFA, mobile money.",
+        "pitch": "Le système d'exploitation des startups africaines — de l'idée à l'IPO. Des modules activables, boostés par l'IA, calibrés pour la réalité locale : comptabilité OHADA, francs CFA, mobile money.",
+        "status": "En développement",
+        "problem": [
+          "Les fondateurs africains jonglent avec des dizaines d'outils dispersés (Excel, WhatsApp, PDF) sans vision consolidée de leur startup.",
+          "Les SaaS occidentaux ignorent la réalité locale : plan comptable OHADA, francs CFA (XOF), mobile money (Wave, Orange Money).",
+          "L'accompagnement structuré — finance, runway, pitch, gouvernance — reste réservé à une élite déjà connectée aux incubateurs et aux VCs.",
+          "Faute de pilotage financier et opérationnel, une majorité de startups s'éteignent avant d'avoir prouvé leur modèle."
+        ],
+        "value": [
+          {
+            "title": "Modules activables",
+            "body": "Facturation, Comptabilité OHADA, Trésorerie & Runway, Roadmap, Pitch Studio — on active les briques dont on a besoin, à la manière d'Odoo."
+          },
+          {
+            "title": "Agents IA par rôle",
+            "body": "Co-Founder AI, CFO AI, CTO AI et YC Senior Coach analysent vos données réelles et vous conseillent en continu.",
+            "featured": true
+          },
+          {
+            "title": "Calibré pour l'Afrique",
+            "body": "Plan comptable OHADA natif, XOF, intégration mobile money, interface optimisée pour la bande passante limitée."
+          },
+          {
+            "title": "Architecture event-driven",
+            "body": "Multi-tenant et multi-venture : une donnée saisie une fois alimente tout le système, chaque module communique avec les autres."
+          }
+        ],
+        "innovation": [
+          {
+            "title": "Passerelle IA centralisée",
+            "body": "Tous les appels LLM passent par un AiGateway : cache sémantique, coûts maîtrisés, sorties validées par Zod."
+          },
+          {
+            "title": "Agents spécialisés",
+            "body": "Prompts système versionnés, outils déclarés explicitement — un agent par casquette : Co-Founder, CFO, CTO, YC Coach."
+          },
+          {
+            "title": "Mémoire long-terme",
+            "body": "pgvector conserve le contexte de chaque venture pour des conseils qui s'affinent dans le temps."
+          }
+        ],
+        "impact": [
+          {
+            "persona": "Fondateur",
+            "metric": "Runway en temps réel",
+            "body": "Trésorerie, burn rate et alertes de survie calculés automatiquement depuis vos données financières."
+          },
+          {
+            "persona": "Fondateur",
+            "metric": "Pitch en 2 minutes",
+            "body": "Un pitch deck investisseur généré depuis vos chiffres réels, prêt à présenter et exportable."
+          },
+          {
+            "persona": "Incubateur",
+            "metric": "Tout le portfolio, 1 vue",
+            "body": "La santé de chaque startup incubée suivie depuis un tableau de bord unique."
+          },
+          {
+            "persona": "Investisseur",
+            "metric": "Deal flow qualifié",
+            "body": "Des startups structurées, avec des métriques fiables et un Investor Readiness Score."
+          }
+        ],
+        "stack": [
+          "NestJS",
+          "Next.js 15",
+          "TypeScript",
+          "Supabase",
+          "pgvector",
+          "Better Auth",
+          "BullMQ",
+          "LangChain.js",
+          "Claude Sonnet",
+          "React Native"
+        ],
+        "users": [
+          "Fondateurs & startups",
+          "Incubateurs & accélérateurs",
+          "Investisseurs & VCs",
+          "Écosystème UEMOA"
+        ],
+        "discover": "Découvrir JOKO AI en détail"
       }
     },
-    "cta": "En savoir plus"
+    "cta": "En savoir plus",
+    "finalCta": {
+      "eyebrow": "Vous portez un projet ?",
+      "title": "Faisons de votre défi la prochaine plateforme à impact.",
+      "subtitle": "Nos équipes accompagnent institutions, bailleurs et opérateurs privés — du cadrage au run.",
+      "primary": "Demander une démonstration",
+      "secondary": "Nous écrire"
+    }
+  },
+  "SolutionPage": {
+    "back": "Toutes les solutions",
+    "context": "Le contexte",
+    "features": "Ce que fait {name}",
+    "showcase": "En action",
+    "impact": "Sur le terrain",
+    "stack": "Construit avec",
+    "users": "Pour",
+    "markets": "Marchés initiaux",
+    "innovation": "Ce qui nous rend uniques",
+    "cta": {
+      "title": "Déployer {name} dans votre organisation",
+      "subtitle": "Notre équipe vous accompagne du cadrage au déploiement.",
+      "primary": "Demander une démonstration",
+      "secondary": "Nous contacter"
+    },
+    "keyMetrics": {
+      "kereya": { "value": "315", "label": "décès maternels / 100 000 naissances", "context": "au Sénégal — critique en zone rurale" },
+      "passbi": { "value": "292", "label": "bus AFTU équipés NFC", "context": "une seule app pour tout le réseau" },
+      "afriassess": { "value": "3 sem.", "label": "réduites à 1 journée", "context": "pour un rapport PAR standard" },
+      "jokoai": { "value": "80%", "label": "des startups africaines", "context": "s'éteignent faute de pilotage structuré" },
+      "amanet": { "value": "−80%", "label": "durée de traitement", "context": "de 30-40 jours à 5-7 jours" }
+    }
+  },
+  "BlogPage": {
+    "meta": {
+      "title": "Actualités & Insights",
+      "description": "Découvrez nos dernières publications sur la transformation numérique en Afrique : IA, santé digitale, FinTech, GovTech et plus encore."
+    },
+    "hero": {
+      "eyebrow": "Actualités & Insights",
+      "title": "Publications et veille technologique",
+      "description": "Analyses, retours d'expérience et veille sur les technologies qui transforment le continent."
+    },
+    "featured": "À la une",
+    "readArticle": "Lire l'article",
+    "views": "vues",
+    "search": "Rechercher un article...",
+    "allCategories": "Catégories",
+    "allLevels": "Niveaux",
+    "filters": "Filtres",
+    "clearFilters": "Effacer",
+    "noResults": "Aucun article ne correspond à votre recherche.",
+    "share": "Partager",
+    "relatedArticles": "Articles similaires",
+    "prevArticle": "Article précédent",
+    "nextArticle": "Article suivant",
+    "breadcrumb": {
+      "home": "Accueil",
+      "news": "Actualités"
+    },
+    "levels": {
+      "beginner": "Débutant",
+      "intermediate": "Intermédiaire",
+      "expert": "Expert"
+    },
+    "categories": {
+      "ai": "Intelligence Artificielle",
+      "ehealth": "Santé numérique",
+      "fintech": "FinTech",
+      "govtech": "GovTech",
+      "agritech": "AgriTech",
+      "education": "Éducation",
+      "logistics": "Logistique",
+      "smart-cities": "Smart Cities",
+      "cybersecurity": "Cybersécurité",
+      "cloud": "Cloud Computing",
+      "data-analytics": "Data & Analytics",
+      "digital-transformation": "Transformation Digitale",
+      "web-development": "Développement Web",
+      "mobile": "Mobile",
+      "devops": "DevOps",
+      "open-source": "Open Source",
+      "innovation": "Innovation",
+      "african-startups": "Startups africaines",
+      "success-stories": "Success Stories",
+      "case-studies": "Études de cas",
+      "events": "Événements",
+      "tutorials": "Tutoriels",
+      "tech-watch": "Veille Technologique"
+    }
   },
   "ContactPage": {
     "hero": {
@@ -298,24 +1151,31 @@
       "organizationLabel": "Organisation",
       "organizationPlaceholder": "Nom de votre organisation",
       "organizationError": "Veuillez indiquer votre organisation.",
+      "subjectLabel": "Quel est l'objet de votre demande ?",
+      "subjects": ["Nouveau projet", "Partenariat", "Démonstration", "Support technique", "Autre"],
       "messageLabel": "Message",
       "messagePlaceholder": "Décrivez votre projet ou votre demande...",
       "messageError": "Votre message doit contenir au moins 10 caractères.",
       "submit": "Envoyer le message",
       "submitting": "Envoi en cours...",
-      "privacyNote": "Vos données sont traitées de manière confidentielle et ne sont jamais partagées avec des tiers.",
-      "successTitle": "Message envoyé",
-      "successBody": "Merci, nous revenons vers vous sous 48 heures ouvrées.",
+      "privacyNote": "Vos données sont confidentielles et ne sont jamais partagées avec des tiers.",
+      "successTitle": "Message envoyé !",
+      "successBody": "Merci pour votre message. Notre équipe vous contactera sous 48 heures ouvrées.",
+      "successAction": "Envoyer un autre message",
       "errorBody": "Une erreur est survenue. Merci de réessayer ou de nous écrire directement."
     },
     "info": {
-      "title": "Informations",
-      "addressLabel": "Adresse",
-      "address": "[CLIENT-FILL: adresse du siège]",
+      "title": "Autres moyens de nous joindre",
+      "addressLabel": "Siège social",
+      "address": "Dakar, Sénégal",
       "emailLabel2": "Email",
-      "email": "[CLIENT-FILL: email de contact]",
+      "email": "contact@impactsolution.sn",
       "phoneLabel": "Téléphone",
-      "phone": "[CLIENT-FILL: numéro de téléphone]"
+      "phone": "+221 78 450 0058",
+      "responseTitle": "Temps de réponse",
+      "responseBody": "Notre équipe répond généralement sous 24 à 48h ouvrées.",
+      "availabilityTitle": "Disponibilité",
+      "availabilityBody": "Lundi — Vendredi, 8h — 17h (GMT)"
     }
   }
 }
